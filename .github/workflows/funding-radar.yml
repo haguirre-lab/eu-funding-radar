@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   check-funding:
@@ -23,6 +21,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install dependencies
+        run: pip install openpyxl
+
       - name: Restore previous data
         continue-on-error: true
         run: |
@@ -35,6 +36,7 @@ jobs:
         run: |
           mkdir -p docs
           cp resultados_convocatorias.html docs/index.html
+          cp resultados_convocatorias.xlsx docs/resultados_convocatorias.xlsx
 
       - name: Commit and push results
         run: |
