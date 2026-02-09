@@ -719,6 +719,8 @@ def generate_excel(all_calls, new_calls):
     ws4 = wb.create_sheet("Recursos")
 
     resources = [
+        # --- EUROPA ---
+        ("SECCION: EUROPA", "", ""),
         ("Portal EU Funding & Tenders", "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals", "Portal principal de convocatorias europeas"),
         ("NetZeroCities (Mission Cities)", "https://netzerocities.eu", "Plataforma ciudades Mission. Bilbao es miembro."),
         ("URBACT", "https://urbact.eu/calls-for-proposals", "Redes de ciudades europeas"),
@@ -728,7 +730,29 @@ def generate_excel(all_calls, new_calls):
         ("Innovation Fund", "https://climate.ec.europa.eu/eu-action/eu-funding-climate-action/innovation-fund_en", "Descarbonizacion industrial"),
         ("CEF Transport", "https://cinea.ec.europa.eu/programmes/connecting-europe-facility/transport_en", "Connecting Europe - Transporte"),
         ("Digital Europe", "https://digital-strategy.ec.europa.eu/en/activities/digital-programme", "IA, datos, ciberseguridad"),
+        ("EIT Climate-KIC", "https://www.climate-kic.org/programmes/", "Innovacion climatica - Convocatorias propias"),
+        ("EIT Urban Mobility", "https://www.eiturbanmobility.eu/calls/", "Movilidad urbana - Convocatorias propias"),
+        ("EIT InnoEnergy", "https://www.innoenergy.com/", "Energia sostenible - Convocatorias propias"),
+        ("BEI - Programa ELENA", "https://www.eib.org/en/products/advising/elena/index.htm", "Asistencia tecnica BEI para eficiencia energetica"),
         ("CORDIS", "https://cordis.europa.eu", "Base de datos de proyectos financiados"),
+        # --- ESPANA ---
+        ("SECCION: ESPANA", "", ""),
+        ("IDAE Convocatorias abiertas", "https://ayudasenergiaidae.es/programas-ayudas-abiertas/", "Eficiencia energetica, renovables, MOVES, PRTR"),
+        ("IDAE Catalogo de ayudas", "https://www.idae.es/ayudas-y-financiacion/catalogo-de-ayudas", "Todas las ayudas IDAE disponibles"),
+        ("CDTI Convocatorias", "https://www.cdti.es/convocatorias", "I+D+i, Compra Publica Innovadora"),
+        ("Fundacion Biodiversidad", "https://fundacion-biodiversidad.es/convocatorias/", "Renaturalizacion, biodiversidad, empleo verde"),
+        ("MITECO Convocatorias", "https://www.miteco.gob.es/es/ministerio/servicios/ayudas-subvenciones/", "Transicion ecologica, reto demografico"),
+        ("BDNS Subvenciones", "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias", "Base de Datos Nacional de Subvenciones - TODAS"),
+        ("Red Innpulso", "https://www.redinnpulso.es/", "Red de ciudades de ciencia e innovacion"),
+        ("FEMP Fondos Europeos", "https://femp-fondos-europa.es/convocatorias/", "Federacion Municipios - Convocatorias para EELL"),
+        # --- EUSKADI / BIZKAIA ---
+        ("SECCION: EUSKADI / BIZKAIA", "", ""),
+        ("EVE Programa de ayudas", "https://www.eve.eus/programa-de-ayudas/", "Autoconsumo, renovables, eficiencia, vehiculos"),
+        ("Ihobe Subvenciones", "https://www.ihobe.eus/subvenciones", "Ecoinnovacion, economia circular, clima"),
+        ("SPRI Programas", "https://www.spri.eus/es/ayudas/", "Digitalizacion, industria, smart cities"),
+        ("Diputacion Bizkaia Subvenciones", "https://www.bizkaia.eus/es/subvenciones", "Ayudas departamentales para municipios"),
+        ("Gobierno Vasco Ayudas", "https://www.euskadi.eus/ayudas-subvenciones-702/web01-tramite/es/", "Portal completo ayudas Gobierno Vasco"),
+        ("Udalsarea 2030", "https://www.udalsarea21.net/", "Red vasca municipios sostenibles"),
     ]
 
     ws4.merge_cells('A1:C1')
@@ -746,15 +770,32 @@ def generate_excel(all_calls, new_calls):
 
     for i, (name, url, desc) in enumerate(resources):
         row = 4 + i
-        ws4.cell(row=row, column=1, value=name).font = Font(name='Arial', bold=True, size=10)
-        link_cell = ws4.cell(row=row, column=2, value=url)
-        link_cell.font = Font(name='Arial', size=10, color="0057B7", underline='single')
-        link_cell.hyperlink = url
-        ws4.cell(row=row, column=3, value=desc).font = Font(name='Arial', size=10)
-        for col in range(1, 4):
-            ws4.cell(row=row, column=col).border = thin_border
-            ws4.cell(row=row, column=col).alignment = Alignment(vertical='center', wrap_text=True)
-        ws4.row_dimensions[row].height = 28
+        if name.startswith("SECCION:"):
+            # Section header
+            ws4.merge_cells(start_row=row, start_column=1, end_row=row, end_column=3)
+            cell = ws4.cell(row=row, column=1, value=name.replace("SECCION: ", ""))
+            cell.font = Font(name='Arial', bold=True, size=11, color="FFFFFF")
+            section_colors = {"EUROPA": "1E40AF", "ESPANA": "92400E", "EUSKADI / BIZKAIA": "065F46"}
+            color = "333333"
+            for k, v in section_colors.items():
+                if k in name:
+                    color = v
+            cell.fill = PatternFill('solid', fgColor=color)
+            for c in range(1, 4):
+                ws4.cell(row=row, column=c).fill = PatternFill('solid', fgColor=color)
+                ws4.cell(row=row, column=c).border = thin_border
+            ws4.row_dimensions[row].height = 28
+        else:
+            ws4.cell(row=row, column=1, value=name).font = Font(name='Arial', bold=True, size=10)
+            if url:
+                link_cell = ws4.cell(row=row, column=2, value=url)
+                link_cell.font = Font(name='Arial', size=10, color="0057B7", underline='single')
+                link_cell.hyperlink = url
+            ws4.cell(row=row, column=3, value=desc).font = Font(name='Arial', size=10)
+            for col in range(1, 4):
+                ws4.cell(row=row, column=col).border = thin_border
+                ws4.cell(row=row, column=col).alignment = Alignment(vertical='center', wrap_text=True)
+            ws4.row_dimensions[row].height = 28
 
     wb.save(CONFIG["output_excel"])
     print(f"📊 Excel generado: {CONFIG['output_excel']}")
@@ -880,14 +921,42 @@ def generate_html(all_calls, new_calls):
         </table>
 
         <div style="margin-top:20px;padding:16px;background:#EFF6FF;border:1px solid #BFDBFE;border-radius:10px">
-            <strong style="color:#1E40AF">Buscar manualmente:</strong>
-            <div style="margin-top:8px;font-size:13px;line-height:2">
+            <strong style="color:#1E40AF">Europa:</strong>
+            <div style="margin-top:4px;font-size:13px;line-height:2">
                 <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals" target="_blank" style="color:#0057B7">Portal EU</a> ·
                 <a href="https://netzerocities.eu" target="_blank" style="color:#0057B7">NetZeroCities</a> ·
                 <a href="https://urbact.eu/calls-for-proposals" target="_blank" style="color:#0057B7">URBACT</a> ·
                 <a href="https://interreg-sudoe.eu" target="_blank" style="color:#0057B7">INTERREG SUDOE</a> ·
                 <a href="https://www.atlanticarea.eu" target="_blank" style="color:#0057B7">INTERREG Atlantic</a> ·
-                <a href="https://cinea.ec.europa.eu/programmes/life_en" target="_blank" style="color:#0057B7">LIFE</a>
+                <a href="https://cinea.ec.europa.eu/programmes/life_en" target="_blank" style="color:#0057B7">LIFE</a> ·
+                <a href="https://www.climate-kic.org/programmes/" target="_blank" style="color:#0057B7">EIT Climate-KIC</a> ·
+                <a href="https://www.eiturbanmobility.eu/calls/" target="_blank" style="color:#0057B7">EIT Urban Mobility</a> ·
+                <a href="https://www.eib.org/en/products/advising/elena/index.htm" target="_blank" style="color:#0057B7">BEI ELENA</a>
+            </div>
+        </div>
+
+        <div style="margin-top:12px;padding:16px;background:#FEF3C7;border:1px solid #FCD34D;border-radius:10px">
+            <strong style="color:#92400E">Espana (Nacional):</strong>
+            <div style="margin-top:4px;font-size:13px;line-height:2">
+                <a href="https://ayudasenergiaidae.es/programas-ayudas-abiertas/" target="_blank" style="color:#92400E">IDAE Ayudas</a> ·
+                <a href="https://www.cdti.es/convocatorias" target="_blank" style="color:#92400E">CDTI</a> ·
+                <a href="https://fundacion-biodiversidad.es/convocatorias/" target="_blank" style="color:#92400E">F. Biodiversidad</a> ·
+                <a href="https://www.miteco.gob.es/es/ministerio/servicios/ayudas-subvenciones/" target="_blank" style="color:#92400E">MITECO</a> ·
+                <a href="https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias" target="_blank" style="color:#92400E">BDNS</a> ·
+                <a href="https://femp-fondos-europa.es/convocatorias/" target="_blank" style="color:#92400E">FEMP</a> ·
+                <a href="https://www.redinnpulso.es/" target="_blank" style="color:#92400E">Red Innpulso</a>
+            </div>
+        </div>
+
+        <div style="margin-top:12px;padding:16px;background:#ECFDF5;border:1px solid #6EE7B7;border-radius:10px">
+            <strong style="color:#065F46">Euskadi / Bizkaia:</strong>
+            <div style="margin-top:4px;font-size:13px;line-height:2">
+                <a href="https://www.eve.eus/programa-de-ayudas/" target="_blank" style="color:#065F46">EVE Ayudas</a> ·
+                <a href="https://www.ihobe.eus/subvenciones" target="_blank" style="color:#065F46">Ihobe</a> ·
+                <a href="https://www.spri.eus/es/ayudas/" target="_blank" style="color:#065F46">SPRI</a> ·
+                <a href="https://www.bizkaia.eus/es/subvenciones" target="_blank" style="color:#065F46">Diputacion Bizkaia</a> ·
+                <a href="https://www.euskadi.eus/ayudas-subvenciones-702/web01-tramite/es/" target="_blank" style="color:#065F46">Gobierno Vasco</a> ·
+                <a href="https://www.udalsarea21.net/" target="_blank" style="color:#065F46">Udalsarea 2030</a>
             </div>
         </div>
 
