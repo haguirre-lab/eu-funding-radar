@@ -1,1052 +1,1034 @@
 [
   {
     "id": "HORIZON-MISS-2023-CIT-01-02",
-    "title": "None",
+    "title": "Positive clean energy district (PED) digital twins – from modelling to creating climate neutral Cities",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Positive clean energy district (PED) digital twins – from modelling to creating climate neutral Cities",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2023-CIT-01-02",
-    "fetched_at": "2026-02-09T13:22:38.309912+00:00"
+    "fetched_at": "2026-02-09T13:58:08.670874+00:00",
+    "relevance_level": "MUY ALTA",
+    "relevance_note": "Bilbao es ciudad Mission de neutralidad climática 2030. Acceso prioritario vía NetZeroCities."
   },
   {
     "id": "HORIZON-MISS-2023-CIT-02-01",
-    "title": "None",
+    "title": "Associating Ukrainian cities to the Climate-neutral and smart cities Mission",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Associating Ukrainian cities to the Climate-neutral and smart cities Mission",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2023-CIT-02-01",
-    "fetched_at": "2026-02-09T13:22:38.313554+00:00"
-  },
-  {
-    "id": "HORIZON-MISS-2023-CIT-01-02.json",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Positive clean energy district (PED) digital twins – from modelling to creating climate neutral Cities",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2023-CIT-01-02.json",
-    "fetched_at": "2026-02-09T13:22:38.313656+00:00"
-  },
-  {
-    "id": "HORIZON-MISS-2023-CIT-02-01.json",
-    "title": "None",
-    "status": "Unknown",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Associating Ukrainian cities to the Climate-neutral and smart cities Mission",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2023-CIT-02-01.json",
-    "fetched_at": "2026-02-09T13:22:38.314422+00:00"
+    "fetched_at": "2026-02-09T13:58:08.674507+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2023-CLIMA-CITIES-01-01",
-    "title": "None",
+    "title": "Urban greening and re-naturing for urban regeneration, resilience and climate neutrality",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Urban greening and re-naturing for urban regeneration, resilience and climate neutrality",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2023-CLIMA-CITIES-01-01",
-    "fetched_at": "2026-02-09T13:22:41.097665+00:00"
+    "fetched_at": "2026-02-09T13:58:17.383726+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2025-04-CIT-02",
-    "title": "None",
+    "title": "Innovative, AI-based solutions for urban planning and management",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Innovative, AI-based solutions for urban planning and management",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2025-04-CIT-02",
-    "fetched_at": "2026-02-09T13:22:41.105470+00:00"
+    "fetched_at": "2026-02-09T13:58:17.385733+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2026-01-CIRCBIO-02-two-stage",
-    "title": "None",
+    "title": "Open topic: Using the Circular Cities and Regions Initiative to strengthen urban manufacturing in support of the Clean Industrial Deal",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Open topic: Using the Circular Cities and Regions Initiative to strengthen urban manufacturing in support of the Clean Industrial Deal",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-CIRCBIO-02-two-stage",
-    "fetched_at": "2026-02-09T13:22:59.706993+00:00"
+    "fetched_at": "2026-02-09T13:59:28.124360+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2027-01-CIRCBIO-02-two-stage",
-    "title": "None",
+    "title": "Open topic: Using the Circular Cities and Regions Initiative to strengthen urban manufacturing in support of the Clean Industrial Deal",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Open topic: Using the Circular Cities and Regions Initiative to strengthen urban manufacturing in support of the Clean Industrial Deal",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-02-two-stage",
-    "fetched_at": "2026-02-09T13:22:59.707344+00:00"
+    "fetched_at": "2026-02-09T13:59:28.124693+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2027-04-CIT-CCRI-04",
-    "title": "None",
+    "title": "Advancing circular logistics solutions in cities",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Advancing circular logistics solutions in cities",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-04-CIT-CCRI-04",
-    "fetched_at": "2026-02-09T13:22:59.707638+00:00"
+    "fetched_at": "2026-02-09T13:59:28.125010+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2026-01-CIRCBIO-01-two-stage",
-    "title": "None",
+    "title": "Deploying circular systemic solutions through living labs in cities and regions (Circular Cities and Regions Initiative topic)",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Deploying circular systemic solutions through living labs in cities and regions (Circular Cities and Regions Initiative topic)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-CIRCBIO-01-two-stage",
-    "fetched_at": "2026-02-09T13:22:59.708357+00:00"
+    "fetched_at": "2026-02-09T13:59:28.125729+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2027-01-CIRCBIO-01-two-stage",
-    "title": "None",
+    "title": "Deploying circular systemic solutions through living labs in cities and regions (Circular Cities and Regions Initiative topic)",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Deploying circular systemic solutions through living labs in cities and regions (Circular Cities and Regions Initiative topic)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-01-two-stage",
-    "fetched_at": "2026-02-09T13:22:59.708708+00:00"
+    "fetched_at": "2026-02-09T13:59:28.126099+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-01-CIRCBIO-07",
-    "title": "None",
+    "title": "Demonstration, deployment and upscaling of circular systemic solutions in cities and regions (Circular Cities and Regions Initiative)",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Demonstration, deployment and upscaling of circular systemic solutions in cities and regions (Circular Cities and Regions Initiative)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-01-CIRCBIO-07",
-    "fetched_at": "2026-02-09T13:22:59.710129+00:00"
+    "fetched_at": "2026-02-09T13:59:28.127480+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2026-04-CIT-NEB-B4P-CCRI-03",
-    "title": "None",
+    "title": "Introducing circular economy models in the construction sector, from buildings to city scale",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Introducing circular economy models in the construction sector, from buildings to city scale",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-04-CIT-NEB-B4P-CCRI-03",
-    "fetched_at": "2026-02-09T13:22:59.711182+00:00"
-  },
-  {
-    "id": "HORIZON-MISS-2026-04-CIT-NEB-B4P-CCRI-03.json",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Introducing circular economy models in the construction sector, from buildings to city scale",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-04-CIT-NEB-B4P-CCRI-03.json",
-    "fetched_at": "2026-02-09T13:22:59.711575+00:00"
+    "fetched_at": "2026-02-09T13:59:28.128501+00:00",
+    "relevance_level": "ALTA",
+    "relevance_note": "Bilbao tiene Plan de Economía Circular y proyectos en Mercabilbao."
   },
   {
     "id": "HORIZON-MISS-2025-04-CIT-01",
-    "title": "None",
+    "title": "Coupling circularity and climate mitigation in industrial sites and their cities and regions",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Coupling circularity and climate mitigation in industrial sites and their cities and regions",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2025-04-CIT-01",
-    "fetched_at": "2026-02-09T13:22:59.724829+00:00"
+    "fetched_at": "2026-02-09T13:59:28.142357+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2025-02-D2-10",
-    "title": "None",
+    "title": "Clean Energy Transition Co-Funded Partnership",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Clean Energy Transition Co-Funded Partnership",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2025-02-D2-10",
-    "fetched_at": "2026-02-09T13:23:01.224188+00:00"
+    "fetched_at": "2026-02-09T13:59:30.998296+00:00",
+    "relevance_level": "ALTA",
+    "relevance_note": "Comunidades energéticas en desarrollo (Otxarkoaga, Txurdinaga)."
   },
   {
     "id": "HORIZON-CL3-2026-01-INFRA-02",
-    "title": "None",
+    "title": "Security challenges of the green transition in urban und peri urban areas",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Security challenges of the green transition in urban und peri urban areas",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2026-01-INFRA-02",
-    "fetched_at": "2026-02-09T13:23:03.964784+00:00"
+    "fetched_at": "2026-02-09T13:59:35.964600+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2026-01-CLIMA-03",
-    "title": "None",
+    "title": "Standardising and supporting climate services for climate adaptation",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Standardising and supporting climate services for climate adaptation",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-01-CLIMA-03",
-    "fetched_at": "2026-02-09T13:23:05.904123+00:00"
+    "fetched_at": "2026-02-09T13:59:37.926594+00:00",
+    "relevance_level": "ALTA",
+    "relevance_note": "Plan de Adaptación al Cambio Climático de Bilbao vigente."
   },
   {
     "id": "HORIZON-CL5-2023-D5-01-03",
-    "title": "None",
+    "title": "Frugal zero-emission vehicles concepts for the urban passenger challenge (2ZERO Partnership)",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Frugal zero-emission vehicles concepts for the urban passenger challenge (2ZERO Partnership)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2023-D5-01-03",
-    "fetched_at": "2026-02-09T13:23:10.837639+00:00"
+    "fetched_at": "2026-02-09T13:59:40.887574+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2026-04-CIT-01",
-    "title": "None",
+    "title": "Energy efficient urban and sub-urban public transport, complemented by shared mobility",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Energy efficient urban and sub-urban public transport, complemented by shared mobility",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-04-CIT-01",
-    "fetched_at": "2026-02-09T13:23:10.848712+00:00"
-  },
-  {
-    "id": "LIFE-2024-SAP-NAT-NATURE.json",
-    "title": "None",
-    "status": "Unknown",
-    "programme": "LIFE",
-    "deadline": "",
-    "description": "Nature and Biodiversity",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/LIFE-2024-SAP-NAT-NATURE.json",
-    "fetched_at": "2026-02-09T13:23:12.335254+00:00"
-  },
-  {
-    "id": "LIFE-2025-SAP-NAT-NATURE.json",
-    "title": "None",
-    "status": "Open",
-    "programme": "LIFE",
-    "deadline": "",
-    "description": "Nature and Biodiversity",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/LIFE-2025-SAP-NAT-NATURE.json",
-    "fetched_at": "2026-02-09T13:23:12.335294+00:00"
+    "fetched_at": "2026-02-09T13:59:40.898890+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "LIFE-2024-SAP-NAT-NATURE",
-    "title": "None",
+    "title": "Nature and Biodiversity",
     "status": "Open",
     "programme": "LIFE",
     "deadline": "",
     "description": "Nature and Biodiversity",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/LIFE-2024-SAP-NAT-NATURE",
-    "fetched_at": "2026-02-09T13:23:12.335998+00:00"
+    "fetched_at": "2026-02-09T13:59:46.431148+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "LIFE-2025-SAP-NAT-NATURE",
-    "title": "None",
+    "title": "Nature and Biodiversity",
     "status": "Open",
     "programme": "LIFE",
     "deadline": "",
     "description": "Nature and Biodiversity",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/LIFE-2025-SAP-NAT-NATURE",
-    "fetched_at": "2026-02-09T13:23:12.336572+00:00"
+    "fetched_at": "2026-02-09T13:59:46.431735+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2027-01-BIODIV-05",
-    "title": "None",
+    "title": "Accelerating the transition to a nature positive economy: Integrating biodiversity into the private sector",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Accelerating the transition to a nature positive economy: Integrating biodiversity into the private sector",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-05",
-    "fetched_at": "2026-02-09T13:23:12.336980+00:00"
+    "fetched_at": "2026-02-09T13:59:46.432171+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-01-BIODIV-08",
-    "title": "None",
+    "title": "Strengthening pathways to alternative socio-economic models for continuous improvement of biodiversity",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Strengthening pathways to alternative socio-economic models for continuous improvement of biodiversity",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-01-BIODIV-08",
-    "fetched_at": "2026-02-09T13:23:12.339485+00:00"
-  },
-  {
-    "id": "HORIZON-CL6-2025-01-BIODIV-01",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Additional activities for the European Biodiversity Partnership: Biodiversa+",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-01-BIODIV-01",
-    "fetched_at": "2026-02-09T13:23:12.346827+00:00"
+    "fetched_at": "2026-02-09T13:59:46.439584+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "INNOVFUND-2024-NZT-PILOTS",
-    "title": "None",
+    "title": "Innovation Fund 2024 Net Zero Technologies – Pilot projects",
     "status": "Open",
     "programme": "Innovation Fund",
     "deadline": "",
     "description": "Innovation Fund 2024 Net Zero Technologies – Pilot projects",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2024-NZT-PILOTS",
-    "fetched_at": "2026-02-09T13:23:19.106835+00:00"
+    "fetched_at": "2026-02-09T13:59:47.764257+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
   {
     "id": "INNOVFUND-2025-NZT-PILOTS",
-    "title": "None",
+    "title": "Innovation Fund 2025 Net Zero Technologies - Pilot projects",
     "status": "Open",
     "programme": "Innovation Fund",
     "deadline": "",
     "description": "Innovation Fund 2025 Net Zero Technologies - Pilot projects",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2025-NZT-PILOTS",
-    "fetched_at": "2026-02-09T13:23:19.107095+00:00"
+    "fetched_at": "2026-02-09T13:59:47.764638+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
   {
     "id": "INNOVFUND-2024-NZT-CLEAN-TECH-MANUFACTURING",
-    "title": "None",
+    "title": "Innovation Fund 2024 Net Zero Technologies – Clean-tech manufacturing",
     "status": "Open",
     "programme": "Innovation Fund",
     "deadline": "",
     "description": "Innovation Fund 2024 Net Zero Technologies – Clean-tech manufacturing",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2024-NZT-CLEAN-TECH-MANUFACTURING",
-    "fetched_at": "2026-02-09T13:23:19.110450+00:00"
+    "fetched_at": "2026-02-09T13:59:47.768295+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
   {
     "id": "INNOVFUND-2025-NZT-CLEAN-TECH-MANUFACTURING",
-    "title": "None",
+    "title": "Innovation Fund 2025 Net Zero Technologies - Clean-tech manufacturing",
     "status": "Open",
     "programme": "Innovation Fund",
     "deadline": "",
     "description": "Innovation Fund 2025 Net Zero Technologies - Clean-tech manufacturing",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2025-NZT-CLEAN-TECH-MANUFACTURING",
-    "fetched_at": "2026-02-09T13:23:19.110715+00:00"
+    "fetched_at": "2026-02-09T13:59:47.768655+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2027-04-CIT-05",
-    "title": "None",
+    "title": "Boosting the transformation towards climate-neutral cities, the net-zero economy and open strategic autonomy through Pre-Commercial Procurement (PCP)",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Boosting the transformation towards climate-neutral cities, the net-zero economy and open strategic autonomy through Pre-Commercial Procurement (PCP)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-04-CIT-05",
-    "fetched_at": "2026-02-09T13:23:19.111518+00:00"
+    "fetched_at": "2026-02-09T13:59:47.769683+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2026-04-PCP-CIT-01",
-    "title": "None",
+    "title": "Boosting the transformation towards climate-neutral cities, the net-zero economy and open strategic autonomy through Pre-Commercial Procurement (PCP)",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Boosting the transformation towards climate-neutral cities, the net-zero economy and open strategic autonomy through Pre-Commercial Procurement (PCP)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-04-PCP-CIT-01",
-    "fetched_at": "2026-02-09T13:23:19.111988+00:00"
+    "fetched_at": "2026-02-09T13:59:47.770255+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "LIFE-2025-STRAT-CLIMA-SIP-two-stage",
-    "title": "None",
+    "title": "Strategic Integrated Projects - Climate Action",
     "status": "Open",
     "programme": "LIFE",
     "deadline": "",
     "description": "Strategic Integrated Projects - Climate Action",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/LIFE-2025-STRAT-CLIMA-SIP-two-stage",
-    "fetched_at": "2026-02-09T13:23:21.103403+00:00"
+    "fetched_at": "2026-02-09T13:59:49.860669+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "LIFE-2025-CET-LOCAL",
-    "title": "None",
+    "title": "Boosting the clean energy transition in cities and regions",
     "status": "Open",
     "programme": "LIFE",
     "deadline": "",
     "description": "Boosting the clean energy transition in cities and regions",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/LIFE-2025-CET-LOCAL",
-    "fetched_at": "2026-02-09T13:23:21.108118+00:00"
+    "fetched_at": "2026-02-09T13:59:49.865555+00:00",
+    "relevance_level": "ALTA",
+    "relevance_note": "Comunidades energéticas en desarrollo (Otxarkoaga, Txurdinaga)."
   },
   {
     "id": "HORIZON-MISS-2025-01-CLIMA-02",
-    "title": "None",
+    "title": "Supporting regional and local authorities in developing their Action Plans towards climate resilience",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Supporting regional and local authorities in developing their Action Plans towards climate resilience",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2025-01-CLIMA-02",
-    "fetched_at": "2026-02-09T13:23:21.108647+00:00"
+    "fetched_at": "2026-02-09T13:59:49.866124+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2027-01-D1-11",
-    "title": "None",
+    "title": "Africa-EU CO-FUND action on climate",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Africa-EU CO-FUND action on climate",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-11",
-    "fetched_at": "2026-02-09T13:23:21.114477+00:00"
+    "fetched_at": "2026-02-09T13:59:49.871967+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2026-2-PRIZE",
-    "title": "None",
+    "title": "Renewable energy technology (RET) solutions in energy communities",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Renewable energy technology (RET) solutions in energy communities",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-2-PRIZE",
-    "fetched_at": "2026-02-09T13:23:22.658310+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2026-2-PRIZE.json",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Renewable energy technology (RET) solutions in energy communities",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-2-PRIZE.json",
-    "fetched_at": "2026-02-09T13:23:22.658555+00:00"
+    "fetched_at": "2026-02-09T13:59:51.508188+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2026-04-Two-Stage-D3-02",
-    "title": "None",
+    "title": "Next generation of renewable energy technologies",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Next generation of renewable energy technologies",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-04-Two-Stage-D3-02",
-    "fetched_at": "2026-02-09T13:23:22.667546+00:00"
+    "fetched_at": "2026-02-09T13:59:51.518281+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2026-09-D3-03",
-    "title": "None",
+    "title": "Innovative technologies and solutions to improve wind energy systems supporting the Strategic Energy Technology (SET) Plan on wind",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Innovative technologies and solutions to improve wind energy systems supporting the Strategic Energy Technology (SET) Plan on wind",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-09-D3-03",
-    "fetched_at": "2026-02-09T13:23:22.667987+00:00"
+    "fetched_at": "2026-02-09T13:59:51.518753+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2026-03-D3-19",
-    "title": "None",
+    "title": "Affordable and sustainable primary equipment for Future-Ready multi-terminal HVDC Systems",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Affordable and sustainable primary equipment for Future-Ready multi-terminal HVDC Systems",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-03-D3-19",
-    "fetched_at": "2026-02-09T13:23:22.668356+00:00"
+    "fetched_at": "2026-02-09T13:59:51.519151+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2026-03-D3-13",
-    "title": "None",
+    "title": "Industrial scale up and circularity pathway for IPV technologies (EUPI-PV Partnership)",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Industrial scale up and circularity pathway for IPV technologies (EUPI-PV Partnership)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-03-D3-13",
-    "fetched_at": "2026-02-09T13:23:22.668695+00:00"
+    "fetched_at": "2026-02-09T13:59:51.519515+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2026-03-D3-01",
-    "title": "None",
+    "title": "Targeting key value chain components for increasing the competitiveness of renewable energy technologies in Europe",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Targeting key value chain components for increasing the competitiveness of renewable energy technologies in Europe",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-03-D3-01",
-    "fetched_at": "2026-02-09T13:23:22.669039+00:00"
-  },
-  {
-    "id": "HORIZON-MISS-2023-CLIMA-CITIES-01-01.json",
-    "title": "None",
-    "status": "Unknown",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Urban greening and re-naturing for urban regeneration, resilience and climate neutrality",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2023-CLIMA-CITIES-01-01.json",
-    "fetched_at": "2026-02-09T13:23:25.927787+00:00"
+    "fetched_at": "2026-02-09T13:59:51.519865+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-EIE-2025-02-CONNECT-01",
-    "title": "None",
+    "title": "Preparatory action for setting up joint programmes among innovation ecosystems actors",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Preparatory action for setting up joint programmes among innovation ecosystems actors",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2025-02-CONNECT-01",
-    "fetched_at": "2026-02-09T13:23:28.577743+00:00"
+    "fetched_at": "2026-02-09T14:00:00.877019+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL4-2027-01-MAT-PROD-62",
-    "title": "None",
+    "title": "Fast Track to Innovation for breakthroughs in the Chemical Industry Action Plan (Research and Innovation Action)",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Fast Track to Innovation for breakthroughs in the Chemical Industry Action Plan (Research and Innovation Action)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-62",
-    "fetched_at": "2026-02-09T13:23:28.581336+00:00"
+    "fetched_at": "2026-02-09T14:00:00.880856+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-EIE-2025-02-CONNECT-02",
-    "title": "None",
+    "title": "Implementing co-funded action plans for connected regional innovation valleys",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Implementing co-funded action plans for connected regional innovation valleys",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2025-02-CONNECT-02",
-    "fetched_at": "2026-02-09T13:23:28.586052+00:00"
+    "fetched_at": "2026-02-09T14:00:00.885830+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-FARM2FORK-05-two-stage",
-    "title": "None",
+    "title": "Developing agroecology living labs and lighthouses for climate action under the Food and Nutrition Security and Sustainable Agriculture (FNSSA) partne",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Developing agroecology living labs and lighthouses for climate action under the Food and Nutrition Security and Sustainable Agriculture (FNSSA) partnership",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-FARM2FORK-05-two-stage",
-    "fetched_at": "2026-02-09T13:23:30.757989+00:00"
+    "fetched_at": "2026-02-09T14:00:03.020619+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "INNOVFUND-2024-NZT-GENERAL-MSP",
-    "title": "None",
+    "title": "Innovation Fund 2024 Net Zero Technologies – General decarbonisation – Medium-Scale Projects",
     "status": "Open",
     "programme": "Innovation Fund",
     "deadline": "",
     "description": "Innovation Fund 2024 Net Zero Technologies – General decarbonisation – Medium-Scale Projects",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2024-NZT-GENERAL-MSP",
-    "fetched_at": "2026-02-09T13:23:35.268405+00:00"
+    "fetched_at": "2026-02-09T14:00:10.229833+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
   {
     "id": "INNOVFUND-2024-NZT-GENERAL-LSP",
-    "title": "None",
+    "title": "Innovation Fund 2024 Net Zero Technologies – General decarbonisation – Large-Scale Projects",
     "status": "Open",
     "programme": "Innovation Fund",
     "deadline": "",
     "description": "Innovation Fund 2024 Net Zero Technologies – General decarbonisation – Large-Scale Projects",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2024-NZT-GENERAL-LSP",
-    "fetched_at": "2026-02-09T13:23:35.268718+00:00"
+    "fetched_at": "2026-02-09T14:00:10.230186+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
   {
     "id": "INNOVFUND-2024-NZT-GENERAL-SSP",
-    "title": "None",
+    "title": "Innovation Fund 2024 Net Zero Technologies – General decarbonisation – Small-Scale Projects",
     "status": "Open",
     "programme": "Innovation Fund",
     "deadline": "",
     "description": "Innovation Fund 2024 Net Zero Technologies – General decarbonisation – Small-Scale Projects",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2024-NZT-GENERAL-SSP",
-    "fetched_at": "2026-02-09T13:23:35.269008+00:00"
+    "fetched_at": "2026-02-09T14:00:10.230501+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
   {
     "id": "INNOVFUND-2025-NZT-GENERAL-SSP",
-    "title": "None",
+    "title": "Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Small-Scale Projects",
     "status": "Open",
     "programme": "Innovation Fund",
     "deadline": "",
     "description": "Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Small-Scale Projects",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2025-NZT-GENERAL-SSP",
-    "fetched_at": "2026-02-09T13:23:35.270295+00:00"
+    "fetched_at": "2026-02-09T14:00:10.231813+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
   {
     "id": "INNOVFUND-2025-NZT-GENERAL-LSP",
-    "title": "None",
+    "title": "Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Large-Scale Projects",
     "status": "Open",
     "programme": "Innovation Fund",
     "deadline": "",
     "description": "Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Large-Scale Projects",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2025-NZT-GENERAL-LSP",
-    "fetched_at": "2026-02-09T13:23:35.270548+00:00"
+    "fetched_at": "2026-02-09T14:00:10.232103+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
   {
     "id": "INNOVFUND-2025-NZT-GENERAL-MSP",
-    "title": "None",
+    "title": "Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Medium-Scale Projects",
     "status": "Open",
     "programme": "Innovation Fund",
     "deadline": "",
     "description": "Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Medium-Scale Projects",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2025-NZT-GENERAL-MSP",
-    "fetched_at": "2026-02-09T13:23:35.270790+00:00"
+    "fetched_at": "2026-02-09T14:00:10.232369+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2025-01-Two-Stage-D2-02",
-    "title": "None",
+    "title": "Cost-effective next-generation batteries for long-duration stationary storage (Batt4EU Partnership)",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Cost-effective next-generation batteries for long-duration stationary storage (Batt4EU Partnership)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2025-01-Two-Stage-D2-02",
-    "fetched_at": "2026-02-09T13:23:45.051143+00:00"
+    "fetched_at": "2026-02-09T14:00:20.337686+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2026-01-D2-04",
-    "title": "None",
+    "title": "Integrating advanced materials, cell design and manufacturing development for high-performance batteries aimed at mobility (Batt4EU Partnership)",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Integrating advanced materials, cell design and manufacturing development for high-performance batteries aimed at mobility (Batt4EU Partnership)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-01-D2-04",
-    "fetched_at": "2026-02-09T13:23:45.051546+00:00"
+    "fetched_at": "2026-02-09T14:00:20.338110+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2026-01-D2-09",
-    "title": "None",
+    "title": "Monitoring and Evaluation of the Societal Readiness Pilot",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Monitoring and Evaluation of the Societal Readiness Pilot",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-01-D2-09",
-    "fetched_at": "2026-02-09T13:23:45.051931+00:00"
+    "fetched_at": "2026-02-09T14:00:20.338543+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2026-01-D2-05",
-    "title": "None",
+    "title": "Accelerated multi-physical and virtual testing for battery aging, reliability, and safety evaluation (Batt4EU Partnership)",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Accelerated multi-physical and virtual testing for battery aging, reliability, and safety evaluation (Batt4EU Partnership)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-01-D2-05",
-    "fetched_at": "2026-02-09T13:23:45.052326+00:00"
+    "fetched_at": "2026-02-09T14:00:20.338937+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2026-01-D2-01",
-    "title": "None",
+    "title": "Development of sustainable and design-to-cost batteries with (energy-)efficient manufacturing processes and based on advanced and safer materials (Bat",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Development of sustainable and design-to-cost batteries with (energy-)efficient manufacturing processes and based on advanced and safer materials (Batt4EU Partnership)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-01-D2-01",
-    "fetched_at": "2026-02-09T13:23:45.052690+00:00"
+    "fetched_at": "2026-02-09T14:00:20.339303+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2025-02-D2-11",
-    "title": "None",
+    "title": "Support to the SET Plan community",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Support to the SET Plan community",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2025-02-D2-11",
-    "fetched_at": "2026-02-09T13:23:45.053772+00:00"
+    "fetched_at": "2026-02-09T14:00:20.340380+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2025-02-D2-03",
-    "title": "None",
+    "title": "Sustainable processing and refining of raw materials to produce battery grade Li-ion battery materials (Batt4EU Partnership)",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Sustainable processing and refining of raw materials to produce battery grade Li-ion battery materials (Batt4EU Partnership)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2025-02-D2-03",
-    "fetched_at": "2026-02-09T13:23:45.055976+00:00"
+    "fetched_at": "2026-02-09T14:00:20.342622+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2025-02-D2-06",
-    "title": "None",
+    "title": "Fostering the European battery ecosystem by providing accurate and up-to-date information and stimulating excellence in the European battery R&amp;I c",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Fostering the European battery ecosystem by providing accurate and up-to-date information and stimulating excellence in the European battery R&amp;I community (Batt4EU Partnership)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2025-02-D2-06",
-    "fetched_at": "2026-02-09T13:23:45.057059+00:00"
+    "fetched_at": "2026-02-09T14:00:20.343698+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2025-02-D2-08",
-    "title": "None",
+    "title": "Coordinated call with India on waste to renewable hydrogen",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Coordinated call with India on waste to renewable hydrogen",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2025-02-D2-08",
-    "fetched_at": "2026-02-09T13:23:45.058124+00:00"
+    "fetched_at": "2026-02-09T14:00:20.344747+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
   {
     "id": "HORIZON-CL5-2025-02-D2-12",
-    "title": "None",
+    "title": "NZIA regulatory sandbox exchange forum support",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "NZIA regulatory sandbox exchange forum support",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2025-02-D2-12",
-    "fetched_at": "2026-02-09T13:23:45.059197+00:00"
+    "fetched_at": "2026-02-09T14:00:20.345789+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL5-2025-06-D2-07",
-    "title": "None",
+    "title": "Driving Urban Transitions to a sustainable future (DUT) Co-Funded Partnership",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Driving Urban Transitions to a sustainable future (DUT) Co-Funded Partnership",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2025-06-D2-07",
-    "fetched_at": "2026-02-09T13:23:45.059654+00:00"
+    "fetched_at": "2026-02-09T14:00:20.346235+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "46039460",
-    "title": "None",
+    "title": "Comhaontú Deontais MaJoR EDF-2023-DA-MATCOMP-MJR-CBDIN 101167891 - Cúlchiste CÁS-OPEN CALL 1",
     "status": "Open",
     "programme": "",
     "deadline": "",
     "description": "Comhaontú Deontais MaJoR EDF-2023-DA-MATCOMP-MJR-CBDIN 101167891 - Cúlchiste CÁS-OPEN CALL 1",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46039460",
-    "fetched_at": "2026-02-09T13:23:46.011131+00:00"
+    "fetched_at": "2026-02-09T14:00:21.487931+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "DIGITAL-2024-CLOUD-DATA-AI-07-DIGITALTWIN",
-    "title": "None",
+    "title": "Towards networked Local Digital Twins in the EU",
     "status": "Forthcoming",
     "programme": "Digital Europe",
     "deadline": "",
     "description": "Towards networked Local Digital Twins in the EU",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2024-CLOUD-DATA-AI-07-DIGITALTWIN",
-    "fetched_at": "2026-02-09T13:23:49.216024+00:00"
-  },
-  {
-    "id": "HORIZON-INFRA-2025-01-TECH-04.json",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "AI-generated digital twins for science",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-INFRA-2025-01-TECH-04.json",
-    "fetched_at": "2026-02-09T13:23:51.860537+00:00"
+    "fetched_at": "2026-02-09T14:00:37.442413+00:00",
+    "relevance_level": "ALTA",
+    "relevance_note": "Proyecto BIM/GIS de Bilbao. Complementa estrategia digital."
   },
   {
     "id": "HORIZON-INFRA-2025-01-TECH-04",
-    "title": "None",
+    "title": "AI-generated digital twins for science",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "AI-generated digital twins for science",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-INFRA-2025-01-TECH-04",
-    "fetched_at": "2026-02-09T13:23:51.861810+00:00"
+    "fetched_at": "2026-02-09T14:00:39.946689+00:00",
+    "relevance_level": "ALTA",
+    "relevance_note": "Proyecto BIM/GIS de Bilbao. Complementa estrategia digital."
   },
   {
     "id": "HORIZON-MISS-2027-04-CIT-02",
-    "title": "None",
+    "title": "Hydrogen cities",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Hydrogen cities",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-04-CIT-02",
-    "fetched_at": "2026-02-09T13:23:54.438065+00:00"
+    "fetched_at": "2026-02-09T14:00:42.658635+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
   {
     "id": "HORIZON-JU-CBE-2025-IAFlag-01",
-    "title": "None",
+    "title": "Urban-industrial symbiosis for bio-waste valorisation",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Urban-industrial symbiosis for bio-waste valorisation",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-CBE-2025-IAFlag-01",
-    "fetched_at": "2026-02-09T13:24:05.399775+00:00"
+    "fetched_at": "2026-02-09T14:01:08.756698+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2027-02-CLIMATE-01-two-stage",
-    "title": "None",
+    "title": "Open topic: Innovative solutions for the European Water Resilience Strategy",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Open topic: Innovative solutions for the European Water Resilience Strategy",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01-two-stage",
-    "fetched_at": "2026-02-09T13:24:09.523619+00:00"
+    "fetched_at": "2026-02-09T14:01:22.655578+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2026-02-CLIMATE-02",
-    "title": "None",
+    "title": "Towards the water infrastructures of the future",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Towards the water infrastructures of the future",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-02-CLIMATE-02",
-    "fetched_at": "2026-02-09T13:24:09.537848+00:00"
+    "fetched_at": "2026-02-09T14:01:22.670014+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-CLIMATE-05",
-    "title": "None",
+    "title": "Additional activities for the European Partnership Water Security for the Planet (Water4All)",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Additional activities for the European Partnership Water Security for the Planet (Water4All)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-CLIMATE-05",
-    "fetched_at": "2026-02-09T13:24:09.545747+00:00"
+    "fetched_at": "2026-02-09T14:01:22.677703+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-FARM2FORK-03",
-    "title": "None",
+    "title": "Overcoming the barriers for scaling up circular water management in agriculture",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Overcoming the barriers for scaling up circular water management in agriculture",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-FARM2FORK-03",
-    "fetched_at": "2026-02-09T13:24:09.552929+00:00"
+    "fetched_at": "2026-02-09T14:01:22.684818+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "Consorcio de Aguas Bilbao Bizkaia. Gestión de ría y pluviales."
   },
   {
     "id": "HORIZON-MISS-2025-01-CLIMA-01",
-    "title": "None",
+    "title": "Supporting regions and local authorities in assessing climate risks",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Supporting regions and local authorities in assessing climate risks",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2025-01-CLIMA-01",
-    "fetched_at": "2026-02-09T13:24:14.122126+00:00"
+    "fetched_at": "2026-02-09T14:01:27.324332+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-COMMUNITIES-03",
-    "title": "None",
+    "title": "Innovative solutions for resilient and climate-adapted coastal communities in the Atlantic",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Innovative solutions for resilient and climate-adapted coastal communities in the Atlantic",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-COMMUNITIES-03",
-    "fetched_at": "2026-02-09T13:24:20.371674+00:00"
+    "fetched_at": "2026-02-09T14:02:00.570997+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-COMMUNITIES-02",
-    "title": "None",
+    "title": "Exploring and improving access to housing in rural areas and developing the houses and villages of the future",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Exploring and improving access to housing in rural areas and developing the houses and villages of the future",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-COMMUNITIES-02",
-    "fetched_at": "2026-02-09T13:24:20.373824+00:00"
+    "fetched_at": "2026-02-09T14:02:00.573059+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-COMMUNITIES-01",
-    "title": "None",
+    "title": "Adapting to and mitigating demographic trends in rural areas through evidence-based planning and innovative solutions",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Adapting to and mitigating demographic trends in rural areas through evidence-based planning and innovative solutions",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-COMMUNITIES-01",
-    "fetched_at": "2026-02-09T13:24:20.375944+00:00"
+    "fetched_at": "2026-02-09T14:02:00.575090+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-COMMUNITIES-04",
-    "title": "None",
+    "title": "Creating urban co-creation spaces for driving sustainable food system transformation",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Creating urban co-creation spaces for driving sustainable food system transformation",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-COMMUNITIES-04",
-    "fetched_at": "2026-02-09T13:24:20.378072+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2026-08-Two-Stage-D1-06",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Closing knowledge gaps on Earth system science in support of global and regional assessments and climate policy",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-08-Two-Stage-D1-06",
-    "fetched_at": "2026-02-09T13:24:27.017094+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2027-01-D1-08",
-    "title": "None",
-    "status": "Forthcoming",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Palaeoclimate science for a better understanding of Earth system dynamics",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-08",
-    "fetched_at": "2026-02-09T13:24:27.017394+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2027-01-D1-09",
-    "title": "None",
-    "status": "Forthcoming",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Assessing the performance of policy instruments to inform climate change mitigation action",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-09",
-    "fetched_at": "2026-02-09T13:24:27.017707+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2026-07-D1-04",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Fighting disinformation and effectively communicating on climate change",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-04",
-    "fetched_at": "2026-02-09T13:24:27.018025+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2026-07-D1-03",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Economics of climate change and cost of inaction",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-03",
-    "fetched_at": "2026-02-09T13:24:27.018403+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2026-07-D1-02",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Advancing European climate risk assessments",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-02",
-    "fetched_at": "2026-02-09T13:24:27.018721+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2027-01-D1-10",
-    "title": "None",
-    "status": "Forthcoming",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Understanding and avoiding maladaptation to climate change",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-10",
-    "fetched_at": "2026-02-09T13:24:27.018994+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2027-01-D1-07",
-    "title": "None",
-    "status": "Forthcoming",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Advancing understanding, modelling and prediction of extreme events in a changing climate",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-07",
-    "fetched_at": "2026-02-09T13:24:27.019328+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2027-01-D1-12",
-    "title": "None",
-    "status": "Forthcoming",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Better understanding and attribution of land and ocean carbon sources and sinks",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-12",
-    "fetched_at": "2026-02-09T13:24:27.019668+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2026-07-D1-05",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Improving climate and weather models for Africa",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-05",
-    "fetched_at": "2026-02-09T13:24:27.019996+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2026-07-D1-01",
-    "title": "None",
-    "status": "Open",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Next generation climate monitoring and related capabilities",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-01",
-    "fetched_at": "2026-02-09T13:24:27.020668+00:00"
-  },
-  {
-    "id": "HORIZON-CL5-2027-01-D1-13",
-    "title": "None",
-    "status": "Forthcoming",
-    "programme": "Horizon Europe",
-    "deadline": "",
-    "description": "Next generation scenarios for informing climate and sustainability transitions",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-13",
-    "fetched_at": "2026-02-09T13:24:27.021005+00:00"
-  },
-  {
-    "id": "IMREG-2025-INFOME.json",
-    "title": "None",
-    "status": "Open",
-    "programme": "",
-    "deadline": "",
-    "description": "Information measures for the EU Cohesion policy for 2025",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/IMREG-2025-INFOME.json",
-    "fetched_at": "2026-02-09T13:24:27.021234+00:00"
+    "fetched_at": "2026-02-09T14:02:00.577159+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "IMREG-2025-INFOME",
-    "title": "None",
+    "title": "Information measures for the EU Cohesion policy for 2025",
     "status": "Open",
     "programme": "",
     "deadline": "",
     "description": "Information measures for the EU Cohesion policy for 2025",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/IMREG-2025-INFOME",
-    "fetched_at": "2026-02-09T13:24:27.021948+00:00"
+    "fetched_at": "2026-02-09T14:02:07.765780+00:00",
+    "relevance_level": "MEDIA",
+    "relevance_note": "País Vasco es región en transición. Fondos FEDER disponibles."
+  },
+  {
+    "id": "HORIZON-CL5-2026-08-Two-Stage-D1-06",
+    "title": "Closing knowledge gaps on Earth system science in support of global and regional assessments and climate policy",
+    "status": "Open",
+    "programme": "Horizon Europe",
+    "deadline": "",
+    "description": "Closing knowledge gaps on Earth system science in support of global and regional assessments and climate policy",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-08-Two-Stage-D1-06",
+    "fetched_at": "2026-02-09T14:02:07.768809+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
+  },
+  {
+    "id": "HORIZON-CL5-2027-01-D1-12",
+    "title": "Better understanding and attribution of land and ocean carbon sources and sinks",
+    "status": "Forthcoming",
+    "programme": "Horizon Europe",
+    "deadline": "",
+    "description": "Better understanding and attribution of land and ocean carbon sources and sinks",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-12",
+    "fetched_at": "2026-02-09T14:02:07.769195+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
+  },
+  {
+    "id": "HORIZON-CL5-2026-07-D1-05",
+    "title": "Improving climate and weather models for Africa",
+    "status": "Open",
+    "programme": "Horizon Europe",
+    "deadline": "",
+    "description": "Improving climate and weather models for Africa",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-05",
+    "fetched_at": "2026-02-09T14:02:07.769537+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-NEB-2027-01-BUSINESS-03",
-    "title": "None",
+    "title": "Anticipating the long-term future of neighbourhoods in line with the New European Bauhaus",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Anticipating the long-term future of neighbourhoods in line with the New European Bauhaus",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-BUSINESS-03",
-    "fetched_at": "2026-02-09T13:24:35.470741+00:00"
+    "fetched_at": "2026-02-09T14:02:47.018886+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2026-01-ZEROPOLLUTION-02",
-    "title": "None",
+    "title": "Bioremediation of Ukraine’s ecosystems contaminated by conflicts",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Bioremediation of Ukraine’s ecosystems contaminated by conflicts",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-ZEROPOLLUTION-02",
-    "fetched_at": "2026-02-09T13:25:12.049753+00:00"
+    "fetched_at": "2026-02-09T14:03:10.858293+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2025-05-SOIL-07",
-    "title": "None",
+    "title": "Improved land suitability for soil health and sustainable biomass production",
     "status": "Open",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Improved land suitability for soil health and sustainable biomass production",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2025-05-SOIL-07",
-    "fetched_at": "2026-02-09T13:25:12.061398+00:00"
+    "fetched_at": "2026-02-09T14:03:10.870282+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2027-05-SOIL-06-two-stage",
-    "title": "None",
+    "title": "Long-term drivers and consequences of soil degradation: learning from the past to improve future soil health",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Long-term drivers and consequences of soil degradation: learning from the past to improve future soil health",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-05-SOIL-06-two-stage",
-    "fetched_at": "2026-02-09T13:25:12.062793+00:00"
+    "fetched_at": "2026-02-09T14:03:10.873053+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-MISS-2027-05-SOIL-02-two-stage",
-    "title": "None",
+    "title": "Living Labs for co-creating solutions to reduce eutrophication from agriculture",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Living Labs for co-creating solutions to reduce eutrophication from agriculture",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-05-SOIL-02-two-stage",
-    "fetched_at": "2026-02-09T13:25:12.073878+00:00"
+    "fetched_at": "2026-02-09T14:03:10.884328+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-CLIMATE-01-two-stage",
-    "title": "None",
+    "title": "Strengthening the resilience of water systems and water sector to climate and global socio-economic change impacts",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Strengthening the resilience of water systems and water sector to climate and global socio-economic change impacts",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-CLIMATE-01-two-stage",
-    "fetched_at": "2026-02-09T13:25:12.078752+00:00"
+    "fetched_at": "2026-02-09T14:03:10.888873+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-CLIMATE-02",
-    "title": "None",
+    "title": "The ocean-climate-biodiversity-people nexus: uncovering safe operating space for safeguarding the integrity and health of the global ocean",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "The ocean-climate-biodiversity-people nexus: uncovering safe operating space for safeguarding the integrity and health of the global ocean",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-CLIMATE-02",
-    "fetched_at": "2026-02-09T13:25:12.080949+00:00"
+    "fetched_at": "2026-02-09T14:03:10.891029+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-CLIMATE-03",
-    "title": "None",
+    "title": "Understanding and managing medium and longer-term challenges and opportunities for agriculture stemming from shifting climatic zones and changing agro",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Understanding and managing medium and longer-term challenges and opportunities for agriculture stemming from shifting climatic zones and changing agroecological environments",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-CLIMATE-03",
-    "fetched_at": "2026-02-09T13:25:12.083058+00:00"
+    "fetched_at": "2026-02-09T14:03:10.893056+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-CLIMATE-04",
-    "title": "None",
+    "title": "Monitoring, reporting, verification and mitigation of non-CO2 greenhouse gas emissions and related air pollutants from agriculture",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "Monitoring, reporting, verification and mitigation of non-CO2 greenhouse gas emissions and related air pollutants from agriculture",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-CLIMATE-04",
-    "fetched_at": "2026-02-09T13:25:12.085070+00:00"
+    "fetched_at": "2026-02-09T14:03:10.894943+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON-CL6-2025-02-CLIMATE-01",
-    "title": "None",
+    "title": "The ocean-climate-biodiversity nexus and marine carbon dioxide removal (mCDR)",
     "status": "Forthcoming",
     "programme": "Horizon Europe",
     "deadline": "",
     "description": "The ocean-climate-biodiversity nexus and marine carbon dioxide removal (mCDR)",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2025-02-CLIMATE-01",
-    "fetched_at": "2026-02-09T13:25:12.089553+00:00"
+    "fetched_at": "2026-02-09T14:03:10.899060+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   }
 ]
