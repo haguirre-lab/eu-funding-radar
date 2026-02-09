@@ -394,6 +394,7 @@ def save_seen(seen):
 def fetch_all_calls():
     all_calls = {}
     total = len(CONFIG["keywords"])
+    today = datetime.now(timezone.utc)
 
     print(f"\n🇪🇺 EU FUNDING RADAR — Bilbao Misión Climática")
     print(f"{'='*50}")
@@ -415,10 +416,56 @@ def fetch_all_calls():
         else:
             print("✗ error")
 
-    open_calls = {k: v for k, v in all_calls.items() if v["status"] != "Closed"}
-    print(f"\n📊 Total convocatorias únicas: {len(all_calls)}")
-    print(f"📊 Abiertas/Próximas/Sin estado: {len(open_calls)}")
-    return open_calls
+    print(f"\n📊 Total convocatorias encontradas: {len(all_calls)}")
+
+    # ─── FILTRADO ESTRICTO POR FECHAS ───
+    filtered = {}
+    skipped_closed = 0
+    skipped_old = 0
+
+    for k, v in all_calls.items():
+        status = v.get("status", "Unknown")
+        deadline_str = v.get("deadline", "")
+
+        # 1. Saltar las explicitamente cerradas
+        if status == "Closed":
+            skipped_closed += 1
+            continue
+
+        # 2. Si tiene deadline, comprobar si ya ha pasado
+        if deadline_str:
+            try:
+                deadline_date = datetime.strptime(deadline_str, "%d/%m/%Y").replace(tzinfo=timezone.utc)
+                if deadline_date < today:
+                    # Deadline ya pasado -> cerrada aunque la API diga otra cosa
+                    skipped_old += 1
+                    continue
+            except ValueError:
+                pass  # No se pudo parsear, mantener
+
+        # 3. Si no tiene deadline, comprobar el año del topic ID
+        # Convocatorias de 2023 o 2024 sin deadline probablemente ya estan cerradas
+        if not deadline_str:
+            topic_id = v.get("id", "")
+            if re.search(r'202[0-4]', topic_id):
+                skipped_old += 1
+                continue
+
+        # 4. Corregir status basado en deadline
+        if deadline_str and status != "Forthcoming":
+            try:
+                deadline_date = datetime.strptime(deadline_str, "%d/%m/%Y").replace(tzinfo=timezone.utc)
+                if deadline_date > today:
+                    v["status"] = "Open"
+            except ValueError:
+                pass
+
+        filtered[k] = v
+
+    print(f"📊 Descartadas cerradas: {skipped_closed}")
+    print(f"📊 Descartadas con deadline pasado: {skipped_old}")
+    print(f"📊 Convocatorias vigentes: {len(filtered)}")
+    return filtered
 
 
 # ──────────────────────────────────────────────
