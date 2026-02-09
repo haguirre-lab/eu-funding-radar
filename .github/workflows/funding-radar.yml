@@ -5,6 +5,11 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   check-funding:
     runs-on: ubuntu-latest
@@ -20,34 +25,21 @@ jobs:
 
       - name: Restore previous data
         continue-on-error: true
-        uses: actions/cache@v4
-        with:
-          path: seen_calls.json
-          key: seen-calls-${{ github.run_number }}
-          restore-keys: |
-            seen-calls-
+        run: |
+          git checkout main -- seen_calls.json 2>/dev/null || true
 
       - name: Run EU Funding Radar
-        env:
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
         run: python eu_funding_radar.py
 
-      - name: Save results as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: funding-report-${{ github.run_number }}
-          path: |
-            resultados_convocatorias.json
-            resultados_convocatorias.html
-          retention-days: 30
+      - name: Prepare GitHub Pages
+        run: |
+          mkdir -p docs
+          cp resultados_convocatorias.html docs/index.html
 
-      - name: Save seen calls cache
-        uses: actions/cache/save@v4
-        with:
-          path: seen_calls.json
-          key: seen-calls-${{ github.run_number }}
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add seen_calls.json docs/ resultados_convocatorias.json || true
+          git commit -m "Update funding data $(date +%Y-%m-%d)" || true
+          git push || true
