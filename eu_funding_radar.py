@@ -69,7 +69,7 @@ CONFIG = {
     "email_to": os.environ.get("EMAIL_TO", ""),
     "email_from": os.environ.get("EMAIL_FROM", ""),
     "smtp_server": os.environ.get("SMTP_SERVER", "smtp.gmail.com"),
-    "smtp_port": int(os.environ.get("SMTP_PORT", "587")),
+    "smtp_port": int(os.environ.get("SMTP_PORT") or "587"),
     "smtp_user": os.environ.get("SMTP_USER", ""),
     "smtp_pass": os.environ.get("SMTP_PASS", ""),
 
