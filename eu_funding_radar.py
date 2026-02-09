@@ -187,13 +187,17 @@ def parse_results(api_response):
             content = item.get("content", "")
             title = item.get("title", "")
             summary = item.get("summary", "")
+            metadata = item.get("metadata", {})
 
+            # ─── TOPIC ID ───
+            # Preferir metadata.identifier
             topic_id = ""
-            if url:
+            if metadata.get("identifier"):
+                topic_id = metadata["identifier"][0]
+            elif url:
                 parts = url.rstrip("/").split("/")
                 if parts:
                     topic_id = parts[-1]
-            # Limpiar .json del final del topic_id
             if topic_id.endswith(".json"):
                 topic_id = topic_id[:-5]
             if not topic_id:
@@ -202,29 +206,78 @@ def parse_results(api_response):
                     topic_id = match.group(1)
                 else:
                     topic_id = ref[:60] if ref else ""
-            if not topic_id and not title:
+            if not topic_id:
                 continue
 
-            # Limpiar HTML de todos los campos
-            clean_title = re.sub(r'<[^>]+>', '', str(title or "")).strip()
+            # ─── TITULO ───
+            # Preferir metadata.title sobre el campo title raiz (que suele ser null)
+            clean_title = ""
+            if metadata.get("title"):
+                clean_title = re.sub(r'<[^>]+>', '', str(metadata["title"][0])).strip()
+            if not clean_title or clean_title == "None":
+                clean_title = re.sub(r'<[^>]+>', '', str(title or "")).strip()
+            if not clean_title or clean_title == "None":
+                clean_title = re.sub(r'<[^>]+>', '', str(summary or "")).strip()
+            if not clean_title or clean_title == "None":
+                clean_title = topic_id
+
+            # ─── DESCRIPCION ───
             clean_summary = re.sub(r'<[^>]+>', '', str(summary or "")).strip()[:500]
             clean_content = re.sub(r'<[^>]+>', '', str(content or "")).strip()[:300]
+            description = clean_summary or clean_content
 
-            # Si el titulo es vacio o None, usar el summary o content
-            if not clean_title or clean_title == "None":
-                # Intentar extraer titulo del contenido
-                first_line = (clean_summary or clean_content).split(".")[0].strip()
-                clean_title = first_line[:150] if first_line else topic_id
+            # Intentar obtener descripcion mas rica de descriptionByte
+            if metadata.get("descriptionByte"):
+                raw_desc = re.sub(r'<[^>]+>', '', str(metadata["descriptionByte"][0])).strip()
+                if len(raw_desc) > len(description):
+                    description = raw_desc[:600]
 
+            # ─── ESTADO ───
             status = "Unknown"
-            text_lower = (clean_content + clean_summary + str(item)).lower()
-            if "forthcoming" in text_lower or "upcoming" in text_lower:
-                status = "Forthcoming"
-            elif "open" in text_lower or "submission" in text_lower:
-                status = "Open"
-            elif "closed" in text_lower:
-                status = "Closed"
+            # Extraer de metadata.actions que tiene el status real
+            if metadata.get("actions"):
+                try:
+                    actions_data = json.loads(metadata["actions"][0])
+                    if isinstance(actions_data, list) and actions_data:
+                        action_status = actions_data[0].get("status", {}).get("abbreviation", "")
+                        if action_status:
+                            status = action_status  # "Closed", "Open", "Forthcoming"
+                except (json.JSONDecodeError, IndexError, KeyError):
+                    pass
+            # Fallback: buscar en texto
+            if status == "Unknown":
+                text_lower = (clean_content + clean_summary + str(metadata.get("sortStatus", ""))).lower()
+                if "forthcoming" in text_lower or "upcoming" in text_lower:
+                    status = "Forthcoming"
+                elif "open" in text_lower:
+                    status = "Open"
+                elif "closed" in text_lower:
+                    status = "Closed"
 
+            # ─── DEADLINE ───
+            deadline = ""
+            if metadata.get("deadlineDate"):
+                try:
+                    raw_date = metadata["deadlineDate"][0]
+                    # Formato: "2023-04-27T00:00:00.000+0000"
+                    date_part = raw_date[:10]  # "2023-04-27"
+                    dt = datetime.strptime(date_part, "%Y-%m-%d")
+                    deadline = dt.strftime("%d/%m/%Y")
+                except (ValueError, IndexError):
+                    deadline = raw_date[:10] if raw_date else ""
+            # Fallback: extraer del actions
+            if not deadline and metadata.get("actions"):
+                try:
+                    actions_data = json.loads(metadata["actions"][0])
+                    if isinstance(actions_data, list) and actions_data:
+                        dd = actions_data[0].get("deadlineDates", [])
+                        if dd:
+                            dt = datetime.strptime(dd[0], "%Y-%m-%d")
+                            deadline = dt.strftime("%d/%m/%Y")
+                except:
+                    pass
+
+            # ─── PROGRAMA ───
             programme = ""
             tid_upper = topic_id.upper()
             if "HORIZON" in tid_upper:
@@ -242,31 +295,72 @@ def parse_results(api_response):
             elif "URBACT" in tid_upper:
                 programme = "URBACT"
 
-            deadline = ""
-            date_match = re.search(r'(\d{1,2}\s+\w+\s+20\d{2})', clean_content + clean_summary)
-            if date_match:
-                deadline = date_match.group(1)
+            # ─── TIPO DE ACCION ───
+            action_type = ""
+            if metadata.get("typesOfAction"):
+                action_type = metadata["typesOfAction"][0].replace("HORIZON ", "")
 
-            if not url or "topic-details" not in url:
-                if "calls-for-proposals" not in url and "competitive-calls" not in url:
-                    continue
+            # ─── PRESUPUESTO ───
+            budget = ""
+            if metadata.get("budgetOverview"):
+                try:
+                    bo = json.loads(metadata["budgetOverview"][0])
+                    for topic_key, actions in bo.get("budgetTopicActionMap", {}).items():
+                        for a in actions:
+                            min_c = a.get("minContribution", 0)
+                            max_c = a.get("maxContribution", 0)
+                            if max_c:
+                                if min_c == max_c:
+                                    budget = f"{max_c:,.0f}"
+                                else:
+                                    budget = f"{min_c:,.0f} - {max_c:,.0f}"
+                                break
+                        if budget:
+                            break
+                except:
+                    pass
 
-            # Saltar URLs duplicadas que terminan en .json
-            if url.endswith(".json"):
+            # ─── CALL ID ───
+            call_id = ""
+            if metadata.get("callIdentifier"):
+                call_id = metadata["callIdentifier"][0]
+
+            # ─── URL ───
+            # Preferir metadata.url sobre url raiz
+            final_url = ""
+            if metadata.get("url"):
+                final_url = metadata["url"][0]
+            elif url:
+                final_url = url
+            if not final_url or "topic-details" not in final_url:
+                if "calls-for-proposals" not in final_url and "competitive-calls" not in final_url:
+                    # Construir URL manualmente
+                    if topic_id:
+                        final_url = f"https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/{topic_id}"
+                    else:
+                        continue
+            if final_url.endswith(".json"):
                 continue
+
+            # ─── TAGS ───
+            tags = metadata.get("tags", [])
 
             call_data = {
                 "id": topic_id,
-                "title": clean_title or topic_id,
+                "title": clean_title,
                 "status": status,
                 "programme": programme,
                 "deadline": deadline,
-                "description": clean_summary or clean_content,
-                "url": url,
+                "description": description,
+                "url": final_url,
+                "action_type": action_type,
+                "budget": budget,
+                "call_id": call_id,
+                "tags": ", ".join(tags) if tags else "",
                 "fetched_at": datetime.now(timezone.utc).isoformat(),
             }
 
-            # Añadir relevancia para Bilbao
+            # Anadir relevancia para Bilbao
             rel_level, rel_note = get_relevance_for_call(call_data)
             call_data["relevance_level"] = rel_level
             call_data["relevance_note"] = rel_note
@@ -368,13 +462,13 @@ def generate_excel(all_calls, new_calls):
     ws = wb.active
     ws.title = "Resumen"
 
-    ws.merge_cells('A1:J1')
+    ws.merge_cells('A1:L1')
     ws['A1'] = "EU FUNDING RADAR — AYUNTAMIENTO DE BILBAO"
     ws['A1'].font = title_font
     ws['A1'].alignment = Alignment(horizontal='left', vertical='center')
     ws.row_dimensions[1].height = 40
 
-    ws.merge_cells('A2:J2')
+    ws.merge_cells('A2:L2')
     ws['A2'] = f"Mision Climatica - Neutralidad 2030 - Actualizado: {datetime.now().strftime('%d/%m/%Y %H:%M')} - {len(all_calls)} convocatorias - {len(new_calls)} nuevas"
     ws['A2'].font = subtitle_font
     ws.row_dimensions[2].height = 22
@@ -384,9 +478,11 @@ def generate_excel(all_calls, new_calls):
         ("Titulo", 55),
         ("Programa", 18),
         ("Estado", 14),
-        ("Deadline", 20),
+        ("Deadline", 15),
+        ("Presupuesto", 22),
+        ("Tipo Accion", 20),
         ("Relevancia Bilbao", 18),
-        ("Nota Relevancia", 45),
+        ("Nota Relevancia", 40),
         ("Descripcion", 50),
         ("Nueva?", 10),
         ("Link", 12),
@@ -423,6 +519,8 @@ def generate_excel(all_calls, new_calls):
             call["programme"],
             call["status"],
             call.get("deadline", ""),
+            call.get("budget", ""),
+            call.get("action_type", ""),
             call.get("relevance_level", "INFO"),
             call.get("relevance_note", ""),
             call["description"][:200],
@@ -440,26 +538,26 @@ def generate_excel(all_calls, new_calls):
                 cell.fill = status_fills.get(val, PatternFill())
                 cell.alignment = Alignment(horizontal='center', vertical='center')
                 cell.font = Font(name='Arial', size=10, bold=True)
-            elif col == 6:  # Relevance
+            elif col == 8:  # Relevance
                 cell.fill = relevance_fills.get(val, PatternFill())
                 cell.alignment = Alignment(horizontal='center', vertical='center')
                 cell.font = Font(name='Arial', size=10, bold=True)
-            elif col == 9 and is_new:  # New badge
+            elif col == 11 and is_new:  # New badge
                 cell.font = Font(name='Arial', size=10, bold=True, color="DC2626")
                 cell.fill = PatternFill('solid', fgColor="FEF2F2")
                 cell.alignment = Alignment(horizontal='center', vertical='center')
-            elif col == 10:  # Link
+            elif col == 12:  # Link
                 cell.font = Font(name='Arial', size=10, color="0057B7", underline='single')
                 cell.hyperlink = call["url"]
                 cell.alignment = Alignment(horizontal='center', vertical='center')
 
         if i % 2 == 1:
-            for col in range(1, 11):
+            for col in range(1, 13):
                 c = ws.cell(row=row, column=col)
                 if not c.fill or c.fill.fgColor.rgb == "00000000":
                     c.fill = PatternFill('solid', fgColor="F9FAFB")
 
-    ws.auto_filter.ref = f"A4:J{4 + len(calls_sorted)}"
+    ws.auto_filter.ref = f"A4:L{4 + len(calls_sorted)}"
     ws.freeze_panes = "A5"
 
     # ─── SHEET 2: FICHAS DETALLADAS ───
@@ -484,7 +582,11 @@ def generate_excel(all_calls, new_calls):
             ("Programa", call["programme"]),
             ("Estado", call["status"]),
             ("Deadline", call.get("deadline", "No disponible")),
+            ("Presupuesto (EUR)", call.get("budget", "No disponible") or "No disponible"),
+            ("Tipo de Accion", call.get("action_type", "No disponible") or "No disponible"),
+            ("Call ID", call.get("call_id", "") or ""),
             ("Descripcion", call["description"]),
+            ("Tags", call.get("tags", "") or ""),
             ("Relevancia Bilbao", f"{call.get('relevance_level', 'INFO')} — {call.get('relevance_note', '')}"),
             ("Enlace al portal", call["url"]),
         ]
@@ -832,4 +934,3 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
-
