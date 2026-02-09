@@ -1,0 +1,53 @@
+name: EU Funding Radar — Bilbao
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-funding:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Restore previous data
+        continue-on-error: true
+        uses: actions/cache@v4
+        with:
+          path: seen_calls.json
+          key: seen-calls-${{ github.run_number }}
+          restore-keys: |
+            seen-calls-
+
+      - name: Run EU Funding Radar
+        env:
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        run: python eu_funding_radar.py
+
+      - name: Save results as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: funding-report-${{ github.run_number }}
+          path: |
+            resultados_convocatorias.json
+            resultados_convocatorias.html
+          retention-days: 30
+
+      - name: Save seen calls cache
+        uses: actions/cache/save@v4
+        with:
+          path: seen_calls.json
+          key: seen-calls-${{ github.run_number }}
