@@ -90,23 +90,23 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
 </style></head>
 <body>
 <div class="ctn">
-    <div class="hdr"><div class="hdr-l"><div class="hdr-ico">FR</div><div><h1>Funding Radar</h1><div class="hdr-sub">Bilbao · Misión Climática · Neutralidad 2030</div></div></div><div class="hdr-dt">12/02/2026 08:15</div></div>
+    <div class="hdr"><div class="hdr-l"><div class="hdr-ico">FR</div><div><h1>Funding Radar</h1><div class="hdr-sub">Bilbao · Misión Climática · Neutralidad 2030</div></div></div><div class="hdr-dt">13/02/2026 08:13</div></div>
 
     <div class="sts">
-        <div class="st"><div class="st-n">63</div><div class="st-l">Total</div></div>
-        <div class="st"><div class="st-n" style="color:var(--red)">0</div><div class="st-l">Nuevas</div></div>
-        <div class="st"><div class="st-n" style="color:var(--eu)">63</div><div class="st-l">Europa</div></div>
+        <div class="st"><div class="st-n">69</div><div class="st-l">Total</div></div>
+        <div class="st"><div class="st-n" style="color:var(--red)">15</div><div class="st-l">Nuevas</div></div>
+        <div class="st"><div class="st-n" style="color:var(--eu)">54</div><div class="st-l">Europa</div></div>
         <div class="st"><div class="st-n" style="color:var(--es)">0</div><div class="st-l">España</div></div>
-        <div class="st"><div class="st-n" style="color:var(--eus)">0</div><div class="st-l">Euskadi</div></div>
+        <div class="st"><div class="st-n" style="color:var(--eus)">15</div><div class="st-l">Euskadi</div></div>
         <div class="st"><div class="st-n" style="color:var(--grn)">2</div><div class="st-l">Muy Alta</div></div>
     </div>
 
     <div class="tabs">
-        <button class="tab t-all active" onclick="fS('all',this)">Todas <span class="tc">63</span></button>
-        <button class="tab t-eu" onclick="fS('eu',this)">🇪🇺 Europa <span class="tc">63</span></button>
+        <button class="tab t-all active" onclick="fS('all',this)">Todas <span class="tc">69</span></button>
+        <button class="tab t-eu" onclick="fS('eu',this)">🇪🇺 Europa <span class="tc">54</span></button>
         <button class="tab t-es" onclick="fS('es',this)">🇪🇸 España <span class="tc">0</span></button>
-        <button class="tab t-eus" onclick="fS('eus',this)">🟢 Euskadi <span class="tc">0</span></button>
-        <button class="tab t-new" onclick="fS('new',this)">🆕 Nuevas <span class="tc">0</span></button>
+        <button class="tab t-eus" onclick="fS('eus',this)">🟢 Euskadi <span class="tc">15</span></button>
+        <button class="tab t-new" onclick="fS('new',this)">🆕 Nuevas <span class="tc">15</span></button>
     </div>
 
     <div class="tbar">
@@ -118,10 +118,194 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
 
     <div class="xlbar">📊 <a href="resultados_convocatorias.xlsx">Descargar Excel con fichas detalladas</a></div>
 
-    <div class="no-new-alert">✅ Sin novedades desde la última ejecución</div>
+    
+        <div class="new-alert" id="new-section">
+            <div class="new-alert-title">🆕 15 convocatorias nuevas</div>
+            <table class="calls-table"><thead><tr class="table-head"><th>Convocatoria</th><th class="th-dl">Deadline</th><th class="th-lk"></th></tr></thead>
+            <tbody>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Ayudas a proyectos al amparo de la estrategia de desarrollo local participativo (EDLP), aprobada al grupo de acción local del sect</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/ayudas-al-amparo-de-la-estrategia-de-desarrollo-local-participativo-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">ReSourceEU y materias primas críticas: la UE sigue tramitando convocatorias para favorecer proyectos otorgándoles carácter estraté</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/260119resourceeumateriaes/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Ciudades sostenibles: los Premios Capital Verde Europea y Hoja Verde de 2028 abren su convocatoria hasta el 01.04.26 para ciudades</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/hiriburutahostoberdea2826/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Presolicitud para programa de ayudas a empresas que realicen inversiones productivas que permitan diversificar líneas de negocio, </div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/presolicitud-dibertsifika-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Erasmus Plus y programas similares de movilidad internacional para estudiantado universitario se complementan con ayudas del Gobie</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/erasmusplusengehigarria26/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Programa de impulso a las ciudades y territorios inteligentes para el fomento del desarrollo económico y productivo, que podrá ser</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/260204smartcities/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Formación digital para empleabilidad turística: los fondos Next de la UE apoyan una convocatoria de Lanbide y el Gobierno Vasco, d</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/260119nextlanbidedigital/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Horizon Europe. Clúster digital, industrial y espacial. Apoyos a proyectos para tecnologías de inteligencia artificial, internet, </div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/250119horizondiginduspaceklust/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Horizon Europe: ayudas de la línea de energía del clúster 5 y de la Misión Ciudades. Jornada informativa sobre estas y otras inici</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/horizonkluster5hirimisioa/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Azpitek 2026: Programa de Ayudas para la Adquisición, Instalación, Renovación y Actualización de Infraestructuras de Investigación</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/azpitek-2026-programa-de-ayudas/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Subvenciones para innovación en economía circular 2026</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/subvenciones-para-innovacion-en-economia-circular-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Horizon Europe 2026-27: convocatorias ligadas a misiones ambientales de la UE, partenariados de economía circular, azul o bio, o a</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/251222horizon2627sprieeni/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Escudo Europeo de la Democracia: ayudas a proyectos de alfabetización mediática y fomento del diálogo y la comprensión en torno a </div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/demokraziaezkutua251218/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">KSI Berritzaile Plus: ayudas del Gobierno Vasco a las Industrias Culturales y Creativas para proyectos innovadores en la triple tr</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/ksiberritzalieplus251218/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Asignaciones individualizadas de transporte escolar para el curso 2025-2026 del alumnado de los centros docentes públicos no unive</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/transp-escolar-25-26/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr></tbody></table></div>
 
     <table class="calls-table" id="mt"><thead><tr class="table-head"><th>Convocatoria</th><th class="th-dl">Deadline</th><th class="th-lk"></th></tr></thead>
     <tbody id="cb">
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Ayudas a proyectos al amparo de la estrategia de desarrollo local participativo (EDLP), aprobada al grupo de acción local del sect <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/ayudas-al-amparo-de-la-estrategia-de-desarrollo-local-participativo-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">ReSourceEU y materias primas críticas: la UE sigue tramitando convocatorias para favorecer proyectos otorgándoles carácter estraté <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/260119resourceeumateriaes/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Ciudades sostenibles: los Premios Capital Verde Europea y Hoja Verde de 2028 abren su convocatoria hasta el 01.04.26 para ciudades <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/hiriburutahostoberdea2826/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Presolicitud para programa de ayudas a empresas que realicen inversiones productivas que permitan diversificar líneas de negocio,  <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/presolicitud-dibertsifika-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Erasmus Plus y programas similares de movilidad internacional para estudiantado universitario se complementan con ayudas del Gobie <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/erasmusplusengehigarria26/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
         <tr class="call-row" data-source="eu" data-rel="ALTA" data-new="0">
             <td class="cell-main">
                 <div class="call-title">Introducing circular economy models in the construction sector, from buildings to city scale</div>
@@ -142,15 +326,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eu" data-rel="ALTA" data-new="0">
             <td class="cell-main">
-                <div class="call-title">Advancing European climate risk assessments</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-open">Abierta</span><span class="badge-prog">Horizon Europe</span><span class="badge-rel-alta">ALTA</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following outcomes:The implementation of the European Adaptation Strategy, European Cl</div><div class="rel-note">💡 Plan de Adaptación al Cambio Climático de Bilbao vigente.</div><div class="budget">💰 4,000,000</div>
-            </td>
-            <td class="cell-deadline">15/04/2026</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-02" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="ALTA" data-new="0">
-            <td class="cell-main">
                 <div class="call-title">Support to the implementation of Circular Economy Strategy and Action Plan for Ukraine</div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-open">Abierta</span><span class="badge-rel-alta">ALTA</span></div>
                 <div class="call-desc">Support to the implementation of Circular Economy Strategy and Action Plan for Ukraine</div><div class="rel-note">💡 Bilbao tiene Plan de Economía Circular y proyectos en Mercabilbao.</div>
@@ -166,6 +341,96 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">23/09/2026</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2026-01-CLIMA-03" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Programa de impulso a las ciudades y territorios inteligentes para el fomento del desarrollo económico y productivo, que podrá ser <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/260204smartcities/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Formación digital para empleabilidad turística: los fondos Next de la UE apoyan una convocatoria de Lanbide y el Gobierno Vasco, d <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/260119nextlanbidedigital/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Horizon Europe. Clúster digital, industrial y espacial. Apoyos a proyectos para tecnologías de inteligencia artificial, internet,  <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/250119horizondiginduspaceklust/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Horizon Europe: ayudas de la línea de energía del clúster 5 y de la Misión Ciudades. Jornada informativa sobre estas y otras inici <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/horizonkluster5hirimisioa/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Azpitek 2026: Programa de Ayudas para la Adquisición, Instalación, Renovación y Actualización de Infraestructuras de Investigación <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/azpitek-2026-programa-de-ayudas/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Subvenciones para innovación en economía circular 2026 <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/subvenciones-para-innovacion-en-economia-circular-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Horizon Europe 2026-27: convocatorias ligadas a misiones ambientales de la UE, partenariados de economía circular, azul o bio, o a <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/251222horizon2627sprieeni/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Escudo Europeo de la Democracia: ayudas a proyectos de alfabetización mediática y fomento del diálogo y la comprensión en torno a  <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/demokraziaezkutua251218/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">KSI Berritzaile Plus: ayudas del Gobierno Vasco a las Industrias Culturales y Creativas para proyectos innovadores en la triple tr <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/ksiberritzalieplus251218/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Asignaciones individualizadas de transporte escolar para el curso 2025-2026 del alumnado de los centros docentes públicos no unive <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2025/transp-escolar-25-26/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
             <td class="cell-main">
@@ -187,15 +452,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
             <td class="cell-main">
-                <div class="call-title">Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Medium-Scale Projects</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-open">Abierta</span><span class="badge-prog">Innovation Fund</span><span class="badge-rel-media">MEDIA</span></div>
-                <div class="call-desc">Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Medium-Scale Projects</div><div class="rel-note">💡 Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao.</div>
-            </td>
-            <td class="cell-deadline">23/04/2026</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2025-NZT-GENERAL-MSP" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
-            <td class="cell-main">
                 <div class="call-title">Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Small-Scale Projects</div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-open">Abierta</span><span class="badge-prog">Innovation Fund</span><span class="badge-rel-media">MEDIA</span></div>
                 <div class="call-desc">Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Small-Scale Projects</div><div class="rel-note">💡 Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao.</div>
@@ -211,6 +467,15 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">23/04/2026</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2025-NZT-GENERAL-LSP" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Medium-Scale Projects</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-open">Abierta</span><span class="badge-prog">Innovation Fund</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Innovation Fund 2025 Net Zero Technologies - General decarbonisation - Medium-Scale Projects</div><div class="rel-note">💡 Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao.</div>
+            </td>
+            <td class="cell-deadline">23/04/2026</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/INNOVFUND-2025-NZT-GENERAL-MSP" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
             <td class="cell-main">
@@ -241,39 +506,21 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
-                <div class="call-title">Improving climate and weather models for Africa</div>
+                <div class="call-title">Open topic: Using the Circular Cities and Regions Initiative to strengthen urban manufacturing in support of the Clean Industrial </div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-open">Abierta</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following expected outcomes:Improved quality and performance of weather and climate mo</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 4,000,000</div>
+                <div class="call-desc">Expected Outcome: Project results are expected to contribute to all of the following expected outcomes:urban manufacturers significantly increase their resource</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 5,000,000</div>
             </td>
-            <td class="cell-deadline">15/04/2026</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-05" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-deadline">16/04/2026</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-CIRCBIO-02-two-stage" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
-                <div class="call-title">Next generation climate monitoring and related capabilities</div>
+                <div class="call-title">Deploying circular systemic solutions through living labs in cities and regions (Circular Cities and Regions Initiative topic)</div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-open">Abierta</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following expected outcomes:Climate data are improved both spatially and temporally, p</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 4,000,000</div>
+                <div class="call-desc">Expected Outcome: Project results are expected to contribute to all of the following expected outcomes:increased circularity and reduced emissions of greenhouse</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 5,000,000</div>
             </td>
-            <td class="cell-deadline">15/04/2026</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-01" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Fighting disinformation and effectively communicating on climate change</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-open">Abierta</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following expected outcomes:Advanced knowledge and understanding on the dynamics of di</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 4,000,000</div>
-            </td>
-            <td class="cell-deadline">15/04/2026</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-04" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Economics of climate change and cost of inaction</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-open">Abierta</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to some of the following expected outcomes:A more robust understanding of the costs of climate inact</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 4,000,000</div>
-            </td>
-            <td class="cell-deadline">15/04/2026</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-07-D1-03" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-deadline">16/04/2026</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-CIRCBIO-01-two-stage" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
@@ -421,42 +668,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
-                <div class="call-title">Palaeoclimate science for a better understanding of Earth system dynamics</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to some of the following outcomes:Better process understanding of past climate changes at different </div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
-            </td>
-            <td class="cell-deadline">04/03/2027</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-08" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Assessing the performance of policy instruments to inform climate change mitigation action</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following expected outcomes:Enhanced knowledge of the effectiveness of policy instrume</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
-            </td>
-            <td class="cell-deadline">04/03/2027</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-09" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Understanding and avoiding maladaptation to climate change</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following outcomes:Existing evidence on maladaptation is retrieved comprehensively, an</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
-            </td>
-            <td class="cell-deadline">04/03/2027</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-10" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Advancing understanding, modelling and prediction of extreme events in a changing climate</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following expected outcomes:Improved understanding of past and present extreme events </div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
-            </td>
-            <td class="cell-deadline">04/03/2027</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-07" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
                 <div class="call-title">Better understanding and attribution of land and ocean carbon sources and sinks</div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
                 <div class="call-desc">Expected Outcome:Project results are expected to contribute to some of the following expected outcomes:Better understanding of oceanic carbon dioxide (CO2) sour</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
@@ -466,12 +677,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
-                <div class="call-title">Next generation scenarios for informing climate and sustainability transitions</div>
+                <div class="call-title">Palaeoclimate science for a better understanding of Earth system dynamics</div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to some of the following expected outcomes:Strengthened collaboration and integration across researc</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
+                <div class="call-desc">Expected Outcome:Project results are expected to contribute to some of the following outcomes:Better process understanding of past climate changes at different </div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
             </td>
             <td class="cell-deadline">04/03/2027</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-13" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-08" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
@@ -526,24 +737,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">15/09/2026</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-09-D3-03" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Open topic: Using the Circular Cities and Regions Initiative to strengthen urban manufacturing in support of the Clean Industrial </div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome: Project results are expected to contribute to all of the following expected outcomes:urban manufacturers significantly increase their resource</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 5,000,000</div>
-            </td>
-            <td class="cell-deadline">16/04/2026</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-CIRCBIO-02-two-stage" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Deploying circular systemic solutions through living labs in cities and regions (Circular Cities and Regions Initiative topic)</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome: Project results are expected to contribute to all of the following expected outcomes:increased circularity and reduced emissions of greenhouse</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 5,000,000</div>
-            </td>
-            <td class="cell-deadline">16/04/2026</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-CIRCBIO-01-two-stage" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
