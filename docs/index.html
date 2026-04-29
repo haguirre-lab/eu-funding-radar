@@ -90,23 +90,23 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
 </style></head>
 <body>
 <div class="ctn">
-    <div class="hdr"><div class="hdr-l"><div class="hdr-ico">FR</div><div><h1>Funding Radar</h1><div class="hdr-sub">Bilbao · Misión Climática · Neutralidad 2030</div></div></div><div class="hdr-dt">28/04/2026 08:10</div></div>
+    <div class="hdr"><div class="hdr-l"><div class="hdr-ico">FR</div><div><h1>Funding Radar</h1><div class="hdr-sub">Bilbao · Misión Climática · Neutralidad 2030</div></div></div><div class="hdr-dt">29/04/2026 07:59</div></div>
 
     <div class="sts">
-        <div class="st"><div class="st-n">75</div><div class="st-l">Total</div></div>
-        <div class="st"><div class="st-n" style="color:var(--red)">11</div><div class="st-l">Nuevas</div></div>
+        <div class="st"><div class="st-n">81</div><div class="st-l">Total</div></div>
+        <div class="st"><div class="st-n" style="color:var(--red)">17</div><div class="st-l">Nuevas</div></div>
         <div class="st"><div class="st-n" style="color:var(--eu)">63</div><div class="st-l">Europa</div></div>
-        <div class="st"><div class="st-n" style="color:var(--es)">1</div><div class="st-l">España</div></div>
-        <div class="st"><div class="st-n" style="color:var(--eus)">11</div><div class="st-l">Euskadi</div></div>
-        <div class="st"><div class="st-n" style="color:var(--grn)">2</div><div class="st-l">Muy Alta</div></div>
+        <div class="st"><div class="st-n" style="color:var(--es)">2</div><div class="st-l">España</div></div>
+        <div class="st"><div class="st-n" style="color:var(--eus)">16</div><div class="st-l">Euskadi</div></div>
+        <div class="st"><div class="st-n" style="color:var(--grn)">3</div><div class="st-l">Muy Alta</div></div>
     </div>
 
     <div class="tabs">
-        <button class="tab t-all active" onclick="fS('all',this)">Todas <span class="tc">75</span></button>
+        <button class="tab t-all active" onclick="fS('all',this)">Todas <span class="tc">81</span></button>
         <button class="tab t-eu" onclick="fS('eu',this)">🇪🇺 Europa <span class="tc">63</span></button>
-        <button class="tab t-es" onclick="fS('es',this)">🇪🇸 España <span class="tc">1</span></button>
-        <button class="tab t-eus" onclick="fS('eus',this)">🟢 Euskadi <span class="tc">11</span></button>
-        <button class="tab t-new" onclick="fS('new',this)">🆕 Nuevas <span class="tc">11</span></button>
+        <button class="tab t-es" onclick="fS('es',this)">🇪🇸 España <span class="tc">2</span></button>
+        <button class="tab t-eus" onclick="fS('eus',this)">🟢 Euskadi <span class="tc">16</span></button>
+        <button class="tab t-new" onclick="fS('new',this)">🆕 Nuevas <span class="tc">17</span></button>
     </div>
 
     <div class="tbar">
@@ -120,9 +120,18 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
 
     
         <div class="new-alert" id="new-section">
-            <div class="new-alert-title">🆕 11 convocatorias nuevas</div>
+            <div class="new-alert-title">🆕 17 convocatorias nuevas</div>
             <table class="calls-table"><thead><tr class="table-head"><th>Convocatoria</th><th class="th-dl">Deadline</th><th class="th-lk"></th></tr></thead>
             <tbody>
+        <tr class="call-row" data-source="es" data-rel="MUY ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">DECRETO FORAL 42/2026, de 23 de abril, de la Diputación Foral de Bizkaia, por el que se aprueban las bases reguladoras y la  convo</div>
+                <div class="call-meta"><span class="badge-src-es">España</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">DIPUTACIÓN FORAL DE BIZKAIA</span><span class="badge-rel-muy">MUY ALTA</span></div>
+                <div class="call-desc">PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA. . Regiones: ES213 - Bizkaia</div><div class="budget">💰 5,040,000.00 EUR</div>
+            </td>
+            <td class="cell-deadline">30/07/2026</td>
+            <td class="cell-link"><a href="https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/901625" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
         <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
             <td class="cell-main">
                 <div class="call-title">LIFE 2026. Medio ambiente. Ayudas de 4 subprogramas, de naturaleza y biodiversidad, circularidad y calidad de vida, cambio climáti</div>
@@ -140,33 +149,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">—</td>
             <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/fempa-eficiencia-energetica-y-mitigacion-del-cambio-climatico-con-incremento-de-capacidad-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
-            <td class="cell-main">
-                <div class="call-title">Contrato mixto de suministro y obra para la sustitución y actualización de la instalación de climatización del polideportivo con p</div>
-                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
-                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/contrato-mixto-suministro-y-obra-sustitucion-y-actualizacion-instalacion-climatizacion-del-polideportivo-piscina-artebe-sondika/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
-            <td class="cell-main">
-                <div class="call-title">Mantenimiento de las instalacioens  de climatización, ACS y grupo electrógeno del  centro de día Nafarroa, a excepción de los  equ</div>
-                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
-                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/mantenimiento-instalacioens-climatizacion-acs-y-grupo-electrogeno-del-centro-dia-nafarroa-excepcion-equipos-climatizacion-cafeteria/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
-            <td class="cell-main">
-                <div class="call-title">Servicio de recogida separada y clasificación de residuos de productos textiles o de calzado posconsumo y el servicio de recogida </div>
-                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
-                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/servicio-recogida-separada-y-clasificacion-residuos-productos-textiles-o-calzado-posconsumo-y-servicio-recogida-separada-residuos-pilas-y-acumuladores-portatiles-usados-contrato-reservado-dad-19-ley-7-2022-y-dad4-y-dad-48-lcsp/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
             <td class="cell-main">
@@ -197,34 +179,115 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
             <td class="cell-main">
-                <div class="call-title">Servicio de recogida de animales domésticos</div>
+                <div class="call-title">mantenimiento CT edificio SEDE Abanto</div>
                 <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
                 <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
             </td>
             <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/servicio-recogida-animales-domesticos/expgebizkaia3436259/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/mantenimiento-ct-edificio-sede-abanto/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
             <td class="cell-main">
-                <div class="call-title">Servicio de transporte para el programa Ibiliaz Ezagutu de primavera</div>
+                <div class="call-title">Recogida pilas Zamudio+Leioa</div>
                 <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
                 <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
             </td>
             <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/servicio-transporte-programa-ibiliaz-ezagutu-primavera/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/recogida-pilas-zamudio+leioa/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
             <td class="cell-main">
-                <div class="call-title">Cubierta de patio CEIP BAGATZA HLHI, Barakaldo (Bizkaia)</div>
+                <div class="call-title">Recogida cápsulas café 101</div>
                 <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
                 <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
             </td>
             <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/cubierta-patio-ceip-bagatza-hlhi-barakaldo-bizkaia/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/recogida-capsulas-cafe-101/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Recogida y destrucción documental 101</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/recogida-y-destruccion-documental-101/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Suministro de kits para recogida y procesado de sangre oculta en heces para el programa de cáncer colorrectal</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/suministro-kits-recogida-y-procesado-sangre-oculta-heces-programa-cancer-colorrectal/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Mnto. bombeos pozos edificios varios 2026</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/mnto-bombeos-pozos-edificios-varios-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Pintura en zonas comunes edificio 500</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/pintura-zonas-comunes-edificio-500/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Reposición piezas granito fachada y baño 407</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/reposicion-piezas-granito-fachada-y-bano-407/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">EIC: Control de plagas edificio EIC FULL SCALE</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/eic-control-plagas-edificio-eic-full-scale/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">control de plagas mnto varios edificios</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/control-plagas-mnto-varios-edificios/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">cambio compases ventana edificio 100</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/cambio-compases-ventana-edificio-100/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
         </tr></tbody></table></div>
 
     <table class="calls-table" id="mt"><thead><tr class="table-head"><th>Convocatoria</th><th class="th-dl">Deadline</th><th class="th-lk"></th></tr></thead>
     <tbody id="cb">
+        <tr class="call-row" data-source="es" data-rel="MUY ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">DECRETO FORAL 42/2026, de 23 de abril, de la Diputación Foral de Bizkaia, por el que se aprueban las bases reguladoras y la  convo <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-es">España</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">DIPUTACIÓN FORAL DE BIZKAIA</span><span class="badge-rel-muy">MUY ALTA</span></div>
+                <div class="call-desc">PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA. . Regiones: ES213 - Bizkaia</div><div class="budget">💰 5,040,000.00 EUR</div>
+            </td>
+            <td class="cell-deadline">30/07/2026</td>
+            <td class="cell-link"><a href="https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/901625" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
         <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
             <td class="cell-main">
                 <div class="call-title">LIFE 2026. Medio ambiente. Ayudas de 4 subprogramas, de naturaleza y biodiversidad, circularidad y calidad de vida, cambio climáti <span class="badge-new">NUEVA</span></div>
@@ -242,33 +305,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">—</td>
             <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/fempa-eficiencia-energetica-y-mitigacion-del-cambio-climatico-con-incremento-de-capacidad-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
-            <td class="cell-main">
-                <div class="call-title">Contrato mixto de suministro y obra para la sustitución y actualización de la instalación de climatización del polideportivo con p <span class="badge-new">NUEVA</span></div>
-                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
-                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/contrato-mixto-suministro-y-obra-sustitucion-y-actualizacion-instalacion-climatizacion-del-polideportivo-piscina-artebe-sondika/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
-            <td class="cell-main">
-                <div class="call-title">Mantenimiento de las instalacioens  de climatización, ACS y grupo electrógeno del  centro de día Nafarroa, a excepción de los  equ <span class="badge-new">NUEVA</span></div>
-                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
-                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/mantenimiento-instalacioens-climatizacion-acs-y-grupo-electrogeno-del-centro-dia-nafarroa-excepcion-equipos-climatizacion-cafeteria/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
-            <td class="cell-main">
-                <div class="call-title">Servicio de recogida separada y clasificación de residuos de productos textiles o de calzado posconsumo y el servicio de recogida  <span class="badge-new">NUEVA</span></div>
-                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
-                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/servicio-recogida-separada-y-clasificacion-residuos-productos-textiles-o-calzado-posconsumo-y-servicio-recogida-separada-residuos-pilas-y-acumuladores-portatiles-usados-contrato-reservado-dad-19-ley-7-2022-y-dad4-y-dad-48-lcsp/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
             <td class="cell-main">
@@ -299,30 +335,102 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
             <td class="cell-main">
-                <div class="call-title">Servicio de recogida de animales domésticos <span class="badge-new">NUEVA</span></div>
+                <div class="call-title">mantenimiento CT edificio SEDE Abanto <span class="badge-new">NUEVA</span></div>
                 <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
                 <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
             </td>
             <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/servicio-recogida-animales-domesticos/expgebizkaia3436259/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/mantenimiento-ct-edificio-sede-abanto/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
             <td class="cell-main">
-                <div class="call-title">Servicio de transporte para el programa Ibiliaz Ezagutu de primavera <span class="badge-new">NUEVA</span></div>
+                <div class="call-title">Recogida pilas Zamudio+Leioa <span class="badge-new">NUEVA</span></div>
                 <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
                 <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
             </td>
             <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/servicio-transporte-programa-ibiliaz-ezagutu-primavera/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/recogida-pilas-zamudio+leioa/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
             <td class="cell-main">
-                <div class="call-title">Cubierta de patio CEIP BAGATZA HLHI, Barakaldo (Bizkaia) <span class="badge-new">NUEVA</span></div>
+                <div class="call-title">Recogida cápsulas café 101 <span class="badge-new">NUEVA</span></div>
                 <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
                 <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
             </td>
             <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/cubierta-patio-ceip-bagatza-hlhi-barakaldo-bizkaia/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/recogida-capsulas-cafe-101/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Recogida y destrucción documental 101 <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/recogida-y-destruccion-documental-101/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Suministro de kits para recogida y procesado de sangre oculta en heces para el programa de cáncer colorrectal <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/suministro-kits-recogida-y-procesado-sangre-oculta-heces-programa-cancer-colorrectal/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Mnto. bombeos pozos edificios varios 2026 <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/mnto-bombeos-pozos-edificios-varios-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Pintura en zonas comunes edificio 500 <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/pintura-zonas-comunes-edificio-500/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Reposición piezas granito fachada y baño 407 <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/reposicion-piezas-granito-fachada-y-bano-407/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">EIC: Control de plagas edificio EIC FULL SCALE <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/eic-control-plagas-edificio-eic-full-scale/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">control de plagas mnto varios edificios <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/control-plagas-mnto-varios-edificios/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">cambio compases ventana edificio 100 <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/cambio-compases-ventana-edificio-100/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
             <td class="cell-main">
@@ -386,15 +494,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">02/02/2027</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-62" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="ALTA" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Bioremediation of Ukraine’s ecosystems contaminated by conflicts</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span><span class="badge-rel-alta">ALTA</span></div>
-                <div class="call-desc">Expected Outcome:The actions funded under this topic should support communities, land managers, local administrators, policy makers, and researchers to deploy s</div><div class="rel-note">💡 Proyectos de renaturalización en Zorrotzaurre y Abandoibarra. Plan Verde municipal.</div><div class="budget">💰 4,000,000</div>
-            </td>
-            <td class="cell-deadline">17/09/2026</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-ZEROPOLLUTION-02" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
             <td class="cell-main">
@@ -524,12 +623,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
-                <div class="call-title">Advancing understanding, modelling and prediction of extreme events in a changing climate</div>
+                <div class="call-title">Palaeoclimate science for a better understanding of Earth system dynamics</div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following expected outcomes:Improved understanding of past and present extreme events </div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
+                <div class="call-desc">Expected Outcome:Project results are expected to contribute to some of the following outcomes:Better process understanding of past climate changes at different </div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
             </td>
             <td class="cell-deadline">04/03/2027</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-07" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-08" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
@@ -551,24 +650,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
-                <div class="call-title">Assessing the performance of policy instruments to inform climate change mitigation action</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following expected outcomes:Enhanced knowledge of the effectiveness of policy instrume</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
-            </td>
-            <td class="cell-deadline">04/03/2027</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-09" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Palaeoclimate science for a better understanding of Earth system dynamics</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
-                <div class="call-desc">Expected Outcome:Project results are expected to contribute to some of the following outcomes:Better process understanding of past climate changes at different </div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
-            </td>
-            <td class="cell-deadline">04/03/2027</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-08" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
                 <div class="call-title">Africa-EU CO-FUND action on climate</div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
                 <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following expected outcomes:A long-term collaboration on climate change research betwe</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
@@ -584,6 +665,24 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">04/03/2027</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-10" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Assessing the performance of policy instruments to inform climate change mitigation action</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
+                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following expected outcomes:Enhanced knowledge of the effectiveness of policy instrume</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
+            </td>
+            <td class="cell-deadline">04/03/2027</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-09" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Advancing understanding, modelling and prediction of extreme events in a changing climate</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
+                <div class="call-desc">Expected Outcome:Project results are expected to contribute to all of the following expected outcomes:Improved understanding of past and present extreme events </div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 15,000,000</div>
+            </td>
+            <td class="cell-deadline">04/03/2027</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-07" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
@@ -665,6 +764,15 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">15/09/2026</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-09-D3-03" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Biorestauration des écosystèmes ukrainiens contaminés par les conflits</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-forth">Próxima</span><span class="badge-prog">Horizon Europe</span></div>
+                <div class="call-desc">Résultat escompté:Les actions financées au titre de ce thème devraient aider les communautés, les gestionnaires de terres, les administrateurs locaux, les décid</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div><div class="budget">💰 4,000,000</div>
+            </td>
+            <td class="cell-deadline">17/09/2026</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-01-ZEROPOLLUTION-02" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
