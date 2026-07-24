@@ -90,23 +90,23 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
 </style></head>
 <body>
 <div class="ctn">
-    <div class="hdr"><div class="hdr-l"><div class="hdr-ico">FR</div><div><h1>Funding Radar</h1><div class="hdr-sub">Bilbao · Misión Climática · Neutralidad 2030</div></div></div><div class="hdr-dt">23/07/2026 08:11</div></div>
+    <div class="hdr"><div class="hdr-l"><div class="hdr-ico">FR</div><div><h1>Funding Radar</h1><div class="hdr-sub">Bilbao · Misión Climática · Neutralidad 2030</div></div></div><div class="hdr-dt">24/07/2026 08:08</div></div>
 
     <div class="sts">
-        <div class="st"><div class="st-n">184</div><div class="st-l">Total</div></div>
-        <div class="st"><div class="st-n" style="color:var(--red)">1</div><div class="st-l">Nuevas</div></div>
-        <div class="st"><div class="st-n" style="color:var(--eu)">181</div><div class="st-l">Europa</div></div>
-        <div class="st"><div class="st-n" style="color:var(--es)">3</div><div class="st-l">España</div></div>
+        <div class="st"><div class="st-n">179</div><div class="st-l">Total</div></div>
+        <div class="st"><div class="st-n" style="color:var(--red)">0</div><div class="st-l">Nuevas</div></div>
+        <div class="st"><div class="st-n" style="color:var(--eu)">179</div><div class="st-l">Europa</div></div>
+        <div class="st"><div class="st-n" style="color:var(--es)">0</div><div class="st-l">España</div></div>
         <div class="st"><div class="st-n" style="color:var(--eus)">0</div><div class="st-l">Euskadi</div></div>
         <div class="st"><div class="st-n" style="color:var(--grn)">9</div><div class="st-l">Muy Alta</div></div>
     </div>
 
     <div class="tabs">
-        <button class="tab t-all active" onclick="fS('all',this)">Todas <span class="tc">184</span></button>
-        <button class="tab t-eu" onclick="fS('eu',this)">🇪🇺 Europa <span class="tc">181</span></button>
-        <button class="tab t-es" onclick="fS('es',this)">🇪🇸 España <span class="tc">3</span></button>
+        <button class="tab t-all active" onclick="fS('all',this)">Todas <span class="tc">179</span></button>
+        <button class="tab t-eu" onclick="fS('eu',this)">🇪🇺 Europa <span class="tc">179</span></button>
+        <button class="tab t-es" onclick="fS('es',this)">🇪🇸 España <span class="tc">0</span></button>
         <button class="tab t-eus" onclick="fS('eus',this)">🟢 Euskadi <span class="tc">0</span></button>
-        <button class="tab t-new" onclick="fS('new',this)">🆕 Nuevas <span class="tc">1</span></button>
+        <button class="tab t-new" onclick="fS('new',this)">🆕 Nuevas <span class="tc">0</span></button>
     </div>
 
     <div class="tbar">
@@ -118,20 +118,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
 
     <div class="xlbar">📊 <a href="resultados_convocatorias.xlsx">Descargar Excel con fichas detalladas</a></div>
 
-    
-        <div class="new-alert" id="new-section">
-            <div class="new-alert-title">🆕 1 convocatoria nueva</div>
-            <table class="calls-table"><thead><tr class="table-head"><th>Convocatoria</th><th class="th-dl">Deadline</th><th class="th-lk"></th></tr></thead>
-            <tbody>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="1">
-            <td class="cell-main">
-                <div class="call-title">Annex I - Part 2 - Technical Specifications_V1.pdf (duurzaamheid, energy neutrality, circularity) The procurement documents refer </div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span></div>
-                <div class="call-desc">Annex I - Part 2 - Technical Specifications_V1.pdf (duurzaamheid, energy neutrality, circularity) The procurement documents refer to “Net Zero” in relation to t</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/97556" target="_blank" class="link-ver">Ver →</a></td>
-        </tr></tbody></table></div>
+    <div class="no-new-alert">✅ Sin novedades desde la última ejecución</div>
 
     <table class="calls-table" id="mt"><thead><tr class="table-head"><th>Convocatoria</th><th class="th-dl">Deadline</th><th class="th-lk"></th></tr></thead>
     <tbody id="cb">
@@ -143,33 +130,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">—</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/70582" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="es" data-rel="MEDIA" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">El objeto del presente convenio es la concesión de una subvención nominativa prevista en el presupuesto para Asociación Festival d</div>
-                <div class="call-meta"><span class="badge-src-es">España</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">VITORIA-GASTEIZ</span><span class="badge-rel-media">MEDIA</span></div>
-                <div class="call-desc">PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA. . Regiones: ES211 - Araba/Álava</div><div class="budget">💰 198,000.00 EUR</div>
-            </td>
-            <td class="cell-deadline">31/12/2026</td>
-            <td class="cell-link"><a href="https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/920568" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="es" data-rel="MEDIA" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">El objeto del presente convenio es la concesión de una subvención nominativa prevista en el presupuesto para la Asociación Fotográ</div>
-                <div class="call-meta"><span class="badge-src-es">España</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">VITORIA-GASTEIZ</span><span class="badge-rel-media">MEDIA</span></div>
-                <div class="call-desc">PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA. . Regiones: ES211 - Araba/Álava</div><div class="budget">💰 8,000.00 EUR</div>
-            </td>
-            <td class="cell-deadline">31/12/2026</td>
-            <td class="cell-link"><a href="https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/920563" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="es" data-rel="MEDIA" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Convenio de subvención nominativa para  Arabako Dantzarien Biltzarra</div>
-                <div class="call-meta"><span class="badge-src-es">España</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">VITORIA-GASTEIZ</span><span class="badge-rel-media">MEDIA</span></div>
-                <div class="call-desc">PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA. . Regiones: ES211 - Araba/Álava</div><div class="budget">💰 8,000.00 EUR</div>
-            </td>
-            <td class="cell-deadline">31/12/2026</td>
-            <td class="cell-link"><a href="https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/920547" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
@@ -808,16 +768,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
                 <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
             </td>
             <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/392570ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Hydrogen cities</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
-                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/392401ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/397787ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
             <td class="cell-main">
@@ -835,7 +786,16 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
                 <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
             </td>
             <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/397787ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/392401ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Hydrogen cities</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/392570ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
             <td class="cell-main">
@@ -1170,9 +1130,9 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             <td class="cell-deadline">—</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/898575215" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="1">
+        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
-                <div class="call-title">Annex I - Part 2 - Technical Specifications_V1.pdf (duurzaamheid, energy neutrality, circularity) The procurement documents refer  <span class="badge-new">NUEVA</span></div>
+                <div class="call-title">Annex I - Part 2 - Technical Specifications_V1.pdf (duurzaamheid, energy neutrality, circularity) The procurement documents refer </div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span></div>
                 <div class="call-desc">Annex I - Part 2 - Technical Specifications_V1.pdf (duurzaamheid, energy neutrality, circularity) The procurement documents refer to “Net Zero” in relation to t</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div>
             </td>
@@ -1208,15 +1168,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
-                <div class="call-title">ASOCIACION EMPRESARIAL MULTISECTORIAL INNOVADORA PARA LAS CIUDADES INTELIGENTES SMART CITY CLUSTER</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span></div>
-                <div class="call-desc">ASOCIACION EMPRESARIAL MULTISECTORIAL INNOVADORA PARA LAS CIUDADES INTELIGENTES SMART CITY CLUSTER</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/929638786" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
                 <div class="call-title">STICHTING JONGE KLIMAATBEWEGING</div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span></div>
                 <div class="call-desc">STICHTING JONGE KLIMAATBEWEGING</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div>
@@ -1226,21 +1177,21 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
-                <div class="call-title">Inter-institutional single framework contract to support the monitoring of LIFE projects (action and operating grants), communicat</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span></div>
-                <div class="call-desc">Inter-institutional single framework contract to support the monitoring of LIFE projects (action and operating grants), communication about the LIFE programme a</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/c68aab09-64dc-4939-bab0-f1614fc69012-PIN" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
                 <div class="call-title">Under call LIFE-2023-CET, topic LIFE-2023-CET-LOCAL, do local and regional authorities need to be beneficiaries of the consortium?</div>
                 <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span></div>
                 <div class="call-desc">Under call LIFE-2023-CET, topic LIFE-2023-CET-LOCAL, do local and regional authorities need to be beneficiaries of the consortium?</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div>
             </td>
             <td class="cell-deadline">—</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/30901" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Inter-institutional single framework contract to support the monitoring of LIFE projects (action and operating grants), communicat</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span></div>
+                <div class="call-desc">Inter-institutional single framework contract to support the monitoring of LIFE projects (action and operating grants), communication about the LIFE programme a</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/c68aab09-64dc-4939-bab0-f1614fc69012-PIN" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
@@ -1421,15 +1372,6 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">—</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/n00brugy" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Mrs LARA MARIA CERDAN AZNAR</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span></div>
-                <div class="call-desc">Mrs LARA MARIA CERDAN AZNAR</div><div class="rel-note">💡 Revisar relevancia para el Ayuntamiento de Bilbao.</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/n00kmonh" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
