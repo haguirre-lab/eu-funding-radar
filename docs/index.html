@@ -90,23 +90,23 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
 </style></head>
 <body>
 <div class="ctn">
-    <div class="hdr"><div class="hdr-l"><div class="hdr-ico">FR</div><div><h1>Funding Radar</h1><div class="hdr-sub">Bilbao · Misión Climática · Neutralidad 2030</div></div></div><div class="hdr-dt">13/08/2026 07:14</div></div>
+    <div class="hdr"><div class="hdr-l"><div class="hdr-ico">FR</div><div><h1>Funding Radar</h1><div class="hdr-sub">Bilbao · Misión Climática · Neutralidad 2030</div></div></div><div class="hdr-dt">14/08/2026 07:05</div></div>
 
     <div class="sts">
-        <div class="st"><div class="st-n">180</div><div class="st-l">Total</div></div>
-        <div class="st"><div class="st-n" style="color:var(--red)">0</div><div class="st-l">Nuevas</div></div>
+        <div class="st"><div class="st-n">191</div><div class="st-l">Total</div></div>
+        <div class="st"><div class="st-n" style="color:var(--red)">11</div><div class="st-l">Nuevas</div></div>
         <div class="st"><div class="st-n" style="color:var(--eu)">179</div><div class="st-l">Europa</div></div>
         <div class="st"><div class="st-n" style="color:var(--es)">1</div><div class="st-l">España</div></div>
-        <div class="st"><div class="st-n" style="color:var(--eus)">0</div><div class="st-l">Euskadi</div></div>
+        <div class="st"><div class="st-n" style="color:var(--eus)">11</div><div class="st-l">Euskadi</div></div>
         <div class="st"><div class="st-n" style="color:var(--grn)">10</div><div class="st-l">Muy Alta</div></div>
     </div>
 
     <div class="tabs">
-        <button class="tab t-all active" onclick="fS('all',this)">Todas <span class="tc">180</span></button>
+        <button class="tab t-all active" onclick="fS('all',this)">Todas <span class="tc">191</span></button>
         <button class="tab t-eu" onclick="fS('eu',this)">🇪🇺 Europa <span class="tc">179</span></button>
         <button class="tab t-es" onclick="fS('es',this)">🇪🇸 España <span class="tc">1</span></button>
-        <button class="tab t-eus" onclick="fS('eus',this)">🟢 Euskadi <span class="tc">0</span></button>
-        <button class="tab t-new" onclick="fS('new',this)">🆕 Nuevas <span class="tc">0</span></button>
+        <button class="tab t-eus" onclick="fS('eus',this)">🟢 Euskadi <span class="tc">11</span></button>
+        <button class="tab t-new" onclick="fS('new',this)">🆕 Nuevas <span class="tc">11</span></button>
     </div>
 
     <div class="tbar">
@@ -118,18 +118,121 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
 
     <div class="xlbar">📊 <a href="resultados_convocatorias.xlsx">Descargar Excel con fichas detalladas</a></div>
 
-    <div class="no-new-alert">✅ Sin novedades desde la última ejecución</div>
+    
+        <div class="new-alert" id="new-section">
+            <div class="new-alert-title">🆕 11 convocatorias nuevas</div>
+            <table class="calls-table"><thead><tr class="table-head"><th>Convocatoria</th><th class="th-dl">Deadline</th><th class="th-lk"></th></tr></thead>
+            <tbody>
+        <tr class="call-row" data-source="es" data-rel="MUY ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">SUBV.DIRECTA ETS INTEGRAC. URBANA INFRAESTRUCT. FERROVIARIA EIBAR- F. NEXT</div>
+                <div class="call-meta"><span class="badge-src-es">España</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">PAÍS VASCO</span><span class="badge-rel-muy">MUY ALTA</span></div>
+                <div class="call-desc">GRAN EMPRESA. MRR - MECANISMO DE RECUPERACIÓN Y RESILIENCIA. Regiones: ES21 - PAIS VASCO</div><div class="budget">💰 2,714,604.88 EUR</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/924920" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Subvenciones para el desarrollo de actividades dirigidas a la movilidad o al intercambio juvenil (2026)</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/intercambio-juvenil-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">BATERIAS: la UE dará préstamos sin intereses a proyectos para vehículos eléctricos, mediante el Mecanismo de Refuerzo para esta te</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/260728baterientresna/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Ayudas destinadas a sufragar los gastos de transporte de estudiantes con especiales dificultades de movilidad (2026-2027).</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/garraio-egokitua/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Obras de sustitución medioambientalmente sostenible del césped artificial e iluminación del campo de fútbol municipal de fútbol-11</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/obras-sustitucion-medioambientalmente-sostenible-del-cesped-artificial-e-iluminacion-del-campo-futbol-municipal-futbol-11-mortuero/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Ayudas a asociaciones profesionales y empresariales del sector del transporte por carretera 2026</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/ayudas-a-asociaciones-del-sector-del-transporte-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Ayudas para la adquisición e implantación de sistemas de nuevas tecnologías y de seguridad en el sector del transporte público 202</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/nuevas-tecnologias-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Decimoquinto contrato derivado del Acuerdo Marco para la homologación de empresas que realicen trabajos de aislamiento acústico en</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/decimoquinto-contrato-derivado-del-acuerdo-marco-homologacion-empresas-que-realicen-trabajos-aislamiento-acustico-edificaciones-afectadas-ruido-carreteras-forales-bizkaia/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Servicio de gestión del papel y cartón procedentes de la recogida selectiva de Servicios de Txingudi-Txingudiko Zerbitzuak, S.A.</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/servicio-gestion-del-papel-y-carton-procedentes-recogida-selectiva-servicios-txingudi-txingudiko-zerbitzuak-s-a/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Servicios medioambientales</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/servicios-medioambientales/expcm528289/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Agua recogida y depurada</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/agua-recogida-y-depurada/expcm528270/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr></tbody></table></div>
 
     <table class="calls-table" id="mt"><thead><tr class="table-head"><th>Convocatoria</th><th class="th-dl">Deadline</th><th class="th-lk"></th></tr></thead>
     <tbody id="cb">
-        <tr class="call-row" data-source="es" data-rel="MUY ALTA" data-new="0">
+        <tr class="call-row" data-source="es" data-rel="MUY ALTA" data-new="1">
             <td class="cell-main">
-                <div class="call-title">AYUDAS A LA ASOCIACION DE CENTROS AMBIENTALES Y GRANJAS ESCUELAS</div>
+                <div class="call-title">SUBV.DIRECTA ETS INTEGRAC. URBANA INFRAESTRUCT. FERROVIARIA EIBAR- F. NEXT <span class="badge-new">NUEVA</span></div>
                 <div class="call-meta"><span class="badge-src-es">España</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">PAÍS VASCO</span><span class="badge-rel-muy">MUY ALTA</span></div>
-                <div class="call-desc">PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA. . Regiones: ES21 - PAIS VASCO</div><div class="budget">💰 75,000.00 EUR</div>
+                <div class="call-desc">GRAN EMPRESA. MRR - MECANISMO DE RECUPERACIÓN Y RESILIENCIA. Regiones: ES21 - PAIS VASCO</div><div class="budget">💰 2,714,604.88 EUR</div>
             </td>
             <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/924392" target="_blank" class="link-ver">Ver →</a></td>
+            <td class="cell-link"><a href="https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/924920" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="ALTA" data-new="0">
             <td class="cell-main">
@@ -139,6 +242,105 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">—</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/70582" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Subvenciones para el desarrollo de actividades dirigidas a la movilidad o al intercambio juvenil (2026) <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/intercambio-juvenil-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">BATERIAS: la UE dará préstamos sin intereses a proyectos para vehículos eléctricos, mediante el Mecanismo de Refuerzo para esta te <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/260728baterientresna/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Junto con ERASMUS PLUS, el Gobierno Vasco impulsa las movilidades internacionales del alumnado y el profesorado de Formación Profe</div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/260721erasmusplusaosatzen/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Ayudas destinadas a sufragar los gastos de transporte de estudiantes con especiales dificultades de movilidad (2026-2027). <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/garraio-egokitua/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="ALTA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Obras de sustitución medioambientalmente sostenible del césped artificial e iluminación del campo de fútbol municipal de fútbol-11 <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-alta">ALTA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/obras-sustitucion-medioambientalmente-sostenible-del-cesped-artificial-e-iluminacion-del-campo-futbol-municipal-futbol-11-mortuero/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Ayudas a asociaciones profesionales y empresariales del sector del transporte por carretera 2026 <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/ayudas-a-asociaciones-del-sector-del-transporte-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Ayudas para la adquisición e implantación de sistemas de nuevas tecnologías y de seguridad en el sector del transporte público 202 <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-ayuda">Ayuda</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/ayuda_subvencion/2026/nuevas-tecnologias-2026/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Decimoquinto contrato derivado del Acuerdo Marco para la homologación de empresas que realicen trabajos de aislamiento acústico en <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/decimoquinto-contrato-derivado-del-acuerdo-marco-homologacion-empresas-que-realicen-trabajos-aislamiento-acustico-edificaciones-afectadas-ruido-carreteras-forales-bizkaia/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Servicio de gestión del papel y cartón procedentes de la recogida selectiva de Servicios de Txingudi-Txingudiko Zerbitzuak, S.A. <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/servicio-gestion-del-papel-y-carton-procedentes-recogida-selectiva-servicios-txingudi-txingudiko-zerbitzuak-s-a/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Servicios medioambientales <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/servicios-medioambientales/expcm528289/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eus" data-rel="MEDIA" data-new="1">
+            <td class="cell-main">
+                <div class="call-title">Agua recogida y depurada <span class="badge-new">NUEVA</span></div>
+                <div class="call-meta"><span class="badge-src-eus">Euskadi</span><span class="badge-open">Abierta</span><span class="badge-type-lic">Licitación</span><span class="badge-prog">Euskadi</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Gobierno Vasco / Sector Publico Euskadi</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://www.euskadi.eus/anuncio_contratacion/agua-recogida-y-depurada/expcm528270/web01-tramite/es/" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="INFO" data-new="0">
             <td class="cell-main">
@@ -750,52 +952,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
                 <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
             </td>
             <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/399930ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Hydrogen cities</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
-                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/405168ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Hydrogen cities</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
-                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
-            </td>
-            <td class="cell-deadline">—</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/390603ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Hydrogen cities</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
-                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/392570ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Hydrogen cities</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
-                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/392401ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
-        </tr>
-        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
-            <td class="cell-main">
-                <div class="call-title">Hydrogen cities</div>
-                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
-                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
-            </td>
-            <td class="cell-deadline">—</td>
-            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/392176ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
             <td class="cell-main">
@@ -814,6 +971,51 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);font-
             </td>
             <td class="cell-deadline">—</td>
             <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/399090ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Hydrogen cities</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/399930ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Hydrogen cities</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/392176ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Hydrogen cities</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/392401ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Hydrogen cities</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/392570ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
+        </tr>
+        <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
+            <td class="cell-main">
+                <div class="call-title">Hydrogen cities</div>
+                <div class="call-meta"><span class="badge-src-eu">Europa</span><span class="badge-info">Info</span><span class="badge-rel-media">MEDIA</span></div>
+                <div class="call-desc">Hydrogen cities</div><div class="rel-note">💡 Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados.</div>
+            </td>
+            <td class="cell-deadline">—</td>
+            <td class="cell-link"><a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/405168ANNOUNCEMENTen" target="_blank" class="link-ver">Ver →</a></td>
         </tr>
         <tr class="call-row" data-source="eu" data-rel="MEDIA" data-new="0">
             <td class="cell-main">
