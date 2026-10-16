@@ -11,25 +11,9 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:23:50.450051+00:00",
+    "fetched_at": "2026-10-16T10:11:17.297737+00:00",
     "relevance_level": "MUY ALTA",
     "relevance_note": "Bilbao es ciudad Mission de neutralidad climática 2030. Acceso prioritario vía NetZeroCities."
-  },
-  {
-    "id": "ERASMUS2027",
-    "title": "Circular design for bio-based innovation towards climate-neutral cities",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "Circular design for bio-based innovation towards climate-neutral cities",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS2027",
-    "action_type": "",
-    "budget": "",
-    "call_id": "ERASMUS-EDU-2022-PI-ALL-INNO",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:23:50.450106+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "HORIZON",
@@ -43,7 +27,23 @@
     "budget": "",
     "call_id": "HORIZON-MISS-2021-CIT-02",
     "tags": "",
-    "fetched_at": "2026-10-15T10:23:50.450132+00:00",
+    "fetched_at": "2026-10-16T10:11:17.297792+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
+  },
+  {
+    "id": "ERASMUS2027",
+    "title": "Circular design for bio-based innovation towards climate-neutral cities",
+    "status": "Unknown",
+    "programme": "",
+    "deadline": "",
+    "description": "Circular design for bio-based innovation towards climate-neutral cities",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS2027",
+    "action_type": "",
+    "budget": "",
+    "call_id": "ERASMUS-EDU-2022-PI-ALL-INNO",
+    "tags": "",
+    "fetched_at": "2026-10-16T10:11:17.297810+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -59,7 +59,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:23:57.332864+00:00",
+    "fetched_at": "2026-10-16T10:11:25.012075+00:00",
     "relevance_level": "MUY ALTA",
     "relevance_note": "Bilbao es nodo TEN-T. Infraestructuras de transporte elegibles."
   },
@@ -75,7 +75,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:23:58.035706+00:00",
+    "fetched_at": "2026-10-16T10:11:25.924074+00:00",
     "relevance_level": "MUY ALTA",
     "relevance_note": "Bilbao es nodo TEN-T. Metro, tranvía, BizkaiBus. Proyecto SuperIsla."
   },
@@ -91,7 +91,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:23:58.035771+00:00",
+    "fetched_at": "2026-10-16T10:11:25.924138+00:00",
     "relevance_level": "MUY ALTA",
     "relevance_note": "Bilbao es nodo TEN-T. Metro, tranvía, BizkaiBus. Proyecto SuperIsla."
   },
@@ -107,7 +107,7 @@
     "budget": "",
     "call_id": "NEAR/ANK/2022/EA-RP/0056",
     "tags": "",
-    "fetched_at": "2026-10-15T10:23:58.035806+00:00",
+    "fetched_at": "2026-10-16T10:11:25.924167+00:00",
     "relevance_level": "MUY ALTA",
     "relevance_note": "Bilbao es nodo TEN-T. Metro, tranvía, BizkaiBus. Proyecto SuperIsla."
   },
@@ -123,7 +123,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:23:58.899409+00:00",
+    "fetched_at": "2026-10-16T10:11:27.029162+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -139,23 +139,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:23:58.899781+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "d875bf4d-fe32-473e-a204-dcb7ff95d772-PIN",
-    "title": "Operation, maintenance, improvement and promotion of the BUILD UP interactive web portal",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "Operation, maintenance, improvement and promotion of the BUILD UP interactive web portal",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/d875bf4d-fe32-473e-a204-dcb7ff95d772-PIN",
-    "action_type": "",
-    "budget": "",
-    "call_id": "CINEA/2023/OP/0020-PIN",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:23:58.900649+00:00",
+    "fetched_at": "2026-10-16T10:11:27.029286+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -171,7 +155,7 @@
     "budget": "",
     "call_id": "LIFE-2025-PLP",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:01.101169+00:00",
+    "fetched_at": "2026-10-16T10:11:31.323018+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Proyectos de renaturalización en Zorrotzaurre y Abandoibarra. Plan Verde municipal."
   },
@@ -187,7 +171,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:05.046383+00:00",
+    "fetched_at": "2026-10-16T10:11:36.449840+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Comunidades energéticas en desarrollo (Otxarkoaga, Txurdinaga)."
   },
@@ -203,25 +187,9 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:05.046470+00:00",
+    "fetched_at": "2026-10-16T10:11:36.449922+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Comunidades energéticas en desarrollo (Otxarkoaga, Txurdinaga)."
-  },
-  {
-    "id": "50912",
-    "title": "HORIZON-MISS-2024-CIT-01-02: Which are the relevant topics under “Mission: Adaptation to Climate Change” which cover climate urban stress and related extreme heat?",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "HORIZON-MISS-2024-CIT-01-02: Which are the relevant topics under “Mission: Adaptation to Climate Change” which cover climate urban stress and related extreme heat?",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/50912",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:08.732413+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "CEF2027",
@@ -235,7 +203,7 @@
     "budget": "",
     "call_id": "CEF-T-2024-AFIFGEN",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.233277+00:00",
+    "fetched_at": "2026-10-16T10:11:42.738382+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -251,7 +219,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.233352+00:00",
+    "fetched_at": "2026-10-16T10:11:42.738555+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -267,7 +235,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.233507+00:00",
+    "fetched_at": "2026-10-16T10:11:42.738604+00:00",
     "relevance_level": "MUY ALTA",
     "relevance_note": "Bilbao es nodo TEN-T. Infraestructuras de transporte elegibles."
   },
@@ -283,7 +251,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.233626+00:00",
+    "fetched_at": "2026-10-16T10:11:42.738697+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -299,7 +267,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.233867+00:00",
+    "fetched_at": "2026-10-16T10:11:42.738787+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -315,7 +283,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.233940+00:00",
+    "fetched_at": "2026-10-16T10:11:42.738828+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -331,55 +299,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.233954+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "917779760",
-    "title": "MAINZER VERKEHRSGESELLSCHAFT MBH",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "MAINZER VERKEHRSGESELLSCHAFT MBH",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/917779760",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.233970+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "920115617",
-    "title": "EUE APS",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "EUE APS",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/920115617",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.233984+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "917671508",
-    "title": "IN-DER-CITY-BUS GMBH",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "IN-DER-CITY-BUS GMBH",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/917671508",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.233997+00:00",
+    "fetched_at": "2026-10-16T10:11:42.738837+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -395,7 +315,55 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.234033+00:00",
+    "fetched_at": "2026-10-16T10:11:42.738848+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
+  },
+  {
+    "id": "917671508",
+    "title": "IN-DER-CITY-BUS GMBH",
+    "status": "Unknown",
+    "programme": "",
+    "deadline": "",
+    "description": "IN-DER-CITY-BUS GMBH",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/917671508",
+    "action_type": "",
+    "budget": "",
+    "call_id": "",
+    "tags": "",
+    "fetched_at": "2026-10-16T10:11:42.738858+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
+  },
+  {
+    "id": "917779760",
+    "title": "MAINZER VERKEHRSGESELLSCHAFT MBH",
+    "status": "Unknown",
+    "programme": "",
+    "deadline": "",
+    "description": "MAINZER VERKEHRSGESELLSCHAFT MBH",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/917779760",
+    "action_type": "",
+    "budget": "",
+    "call_id": "",
+    "tags": "",
+    "fetched_at": "2026-10-16T10:11:42.738866+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
+  },
+  {
+    "id": "920115617",
+    "title": "EUE APS",
+    "status": "Unknown",
+    "programme": "",
+    "deadline": "",
+    "description": "EUE APS",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/920115617",
+    "action_type": "",
+    "budget": "",
+    "call_id": "",
+    "tags": "",
+    "fetched_at": "2026-10-16T10:11:42.738874+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -411,7 +379,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.234052+00:00",
+    "fetched_at": "2026-10-16T10:11:42.738882+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -427,7 +395,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.234240+00:00",
+    "fetched_at": "2026-10-16T10:11:42.738996+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -443,7 +411,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.234293+00:00",
+    "fetched_at": "2026-10-16T10:11:42.739020+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -459,7 +427,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.234407+00:00",
+    "fetched_at": "2026-10-16T10:11:42.739085+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -475,7 +443,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.234422+00:00",
+    "fetched_at": "2026-10-16T10:11:42.739093+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -491,23 +459,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.234436+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "938191470",
-    "title": "IMS INDUSTRIE MECCANICHE SCARDELLATO SPA",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "IMS INDUSTRIE MECCANICHE SCARDELLATO SPA",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/938191470",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:10.234450+00:00",
+    "fetched_at": "2026-10-16T10:11:42.739101+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -523,23 +475,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:11.703170+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "49506",
-    "title": "Regarding the case study in Lot 2, you mention terms such as \"biodiversity and nature co-benefits financial flows\". Could you please provide clearer explanations on what is meant by financial flow and who you would define biodiversity and nature co-benefits.",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "Regarding the case study in Lot 2, you mention terms such as \"biodiversity and nature co-benefits financial flows\". Could you please provide clearer explanations on what is meant by financial flow and who you would define biodiversity and nature co-benefits.",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/49506",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:11.703203+00:00",
+    "fetched_at": "2026-10-16T10:11:44.468286+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -555,7 +491,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:14.143812+00:00",
+    "fetched_at": "2026-10-16T10:11:47.485195+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -571,7 +507,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:14.143869+00:00",
+    "fetched_at": "2026-10-16T10:11:47.485257+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -587,7 +523,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:14.143992+00:00",
+    "fetched_at": "2026-10-16T10:11:47.485411+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -603,7 +539,7 @@
     "budget": "",
     "call_id": "EEA/2025/MVP/0001-EXA",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:14.144034+00:00",
+    "fetched_at": "2026-10-16T10:11:47.485431+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Margen izquierda con pasado industrial. Potencial reconversión."
   },
@@ -619,7 +555,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:14.144092+00:00",
+    "fetched_at": "2026-10-16T10:11:47.485472+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -635,7 +571,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:14.144622+00:00",
+    "fetched_at": "2026-10-16T10:11:47.485803+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -651,7 +587,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:15.340772+00:00",
+    "fetched_at": "2026-10-16T10:11:49.081476+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -667,7 +603,7 @@
     "budget": "",
     "call_id": "CINEA/2026/OP/0011-PIN",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:15.341009+00:00",
+    "fetched_at": "2026-10-16T10:11:49.081584+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -683,39 +619,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:15.341093+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "30899",
-    "title": "Under call LIFE-2023-CET, topic LIFE-2023-CET-LOCAL, do applicants need to address all the expected impacts listed?",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "Under call LIFE-2023-CET, topic LIFE-2023-CET-LOCAL, do applicants need to address all the expected impacts listed?",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/30899",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:15.342356+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "30960",
-    "title": "Under call LIFE-2023-CET, topic LIFE-2023-CET-BUSINESS, Scope B), can local value chains be targeted by applicants?",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "Under call LIFE-2023-CET, topic LIFE-2023-CET-BUSINESS, Scope B), can local value chains be targeted by applicants?",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/30960",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:15.342378+00:00",
+    "fetched_at": "2026-10-16T10:11:49.081636+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -731,7 +635,7 @@
     "budget": "",
     "call_id": "CERV-2023-CITIZENS-TOWN-TT",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:16.858738+00:00",
+    "fetched_at": "2026-10-16T10:11:50.843295+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Estrategia energética municipal incluye comunidades energéticas locales."
   },
@@ -747,7 +651,7 @@
     "budget": "",
     "call_id": "SMP-COSME-2024-REC",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:16.859118+00:00",
+    "fetched_at": "2026-10-16T10:11:50.843536+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Estrategia energética municipal incluye comunidades energéticas locales."
   },
@@ -763,7 +667,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:18.226476+00:00",
+    "fetched_at": "2026-10-16T10:11:52.623725+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -779,7 +683,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:18.228567+00:00",
+    "fetched_at": "2026-10-16T10:11:52.624713+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -795,7 +699,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:20.412361+00:00",
+    "fetched_at": "2026-10-16T10:11:55.344655+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -811,7 +715,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:20.412397+00:00",
+    "fetched_at": "2026-10-16T10:11:55.344699+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -827,7 +731,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:20.412651+00:00",
+    "fetched_at": "2026-10-16T10:11:55.344846+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -843,7 +747,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:20.412725+00:00",
+    "fetched_at": "2026-10-16T10:11:55.344890+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -859,7 +763,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:20.412796+00:00",
+    "fetched_at": "2026-10-16T10:11:55.344938+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -875,7 +779,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:20.412811+00:00",
+    "fetched_at": "2026-10-16T10:11:55.344948+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -891,7 +795,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:20.412836+00:00",
+    "fetched_at": "2026-10-16T10:11:55.344966+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -907,7 +811,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:20.412960+00:00",
+    "fetched_at": "2026-10-16T10:11:55.344998+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -923,7 +827,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:20.413008+00:00",
+    "fetched_at": "2026-10-16T10:11:55.345138+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -939,7 +843,7 @@
     "budget": "",
     "call_id": "PPPA-2025-IGF-IBA",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.171718+00:00",
+    "fetched_at": "2026-10-16T10:11:56.257504+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -955,7 +859,7 @@
     "budget": "",
     "call_id": "EC-REGIO/2025/MVP/0023-EXA",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.171770+00:00",
+    "fetched_at": "2026-10-16T10:11:56.257541+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -971,7 +875,7 @@
     "budget": "",
     "call_id": "EC-REGIO/2025/MVP/0036-EXA",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.171786+00:00",
+    "fetched_at": "2026-10-16T10:11:56.257553+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -987,7 +891,7 @@
     "budget": "",
     "call_id": "EC-REGIO/2024/MVP/0031-EXA",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.171846+00:00",
+    "fetched_at": "2026-10-16T10:11:56.257593+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1003,7 +907,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.171874+00:00",
+    "fetched_at": "2026-10-16T10:11:56.257613+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1019,7 +923,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.171891+00:00",
+    "fetched_at": "2026-10-16T10:11:56.257624+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1035,7 +939,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.172336+00:00",
+    "fetched_at": "2026-10-16T10:11:56.257841+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1051,7 +955,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.172383+00:00",
+    "fetched_at": "2026-10-16T10:11:56.257866+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1067,23 +971,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.172502+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "91a18e6a-ad92-4d0e-a3a6-5f0b34f67061-EXA",
-    "title": "Thematic Monographs on Cross Border Cooperation - 2026CE160AT102",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "Thematic Monographs on Cross Border Cooperation - 2026CE160AT102",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/91a18e6a-ad92-4d0e-a3a6-5f0b34f67061-EXA",
-    "action_type": "",
-    "budget": "",
-    "call_id": "EC-REGIO/2026/MVP/0069-EXA",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.172597+00:00",
+    "fetched_at": "2026-10-16T10:11:56.257924+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1099,7 +987,23 @@
     "budget": "",
     "call_id": "ERDFTA-2024-IVY-IBA",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.172614+00:00",
+    "fetched_at": "2026-10-16T10:11:56.257975+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
+  },
+  {
+    "id": "91a18e6a-ad92-4d0e-a3a6-5f0b34f67061-EXA",
+    "title": "Thematic Monographs on Cross Border Cooperation - 2026CE160AT102",
+    "status": "Unknown",
+    "programme": "",
+    "deadline": "",
+    "description": "Thematic Monographs on Cross Border Cooperation - 2026CE160AT102",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/91a18e6a-ad92-4d0e-a3a6-5f0b34f67061-EXA",
+    "action_type": "",
+    "budget": "",
+    "call_id": "EC-REGIO/2026/MVP/0069-EXA",
+    "tags": "",
+    "fetched_at": "2026-10-16T10:11:56.258039+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1115,7 +1019,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:21.172842+00:00",
+    "fetched_at": "2026-10-16T10:11:56.258111+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1131,7 +1035,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:25.832951+00:00",
+    "fetched_at": "2026-10-16T10:12:01.532170+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1147,7 +1051,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:25.832976+00:00",
+    "fetched_at": "2026-10-16T10:12:01.532208+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1163,7 +1067,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:25.833000+00:00",
+    "fetched_at": "2026-10-16T10:12:01.532230+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1179,7 +1083,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:25.833428+00:00",
+    "fetched_at": "2026-10-16T10:12:01.532388+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1195,23 +1099,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:25.833804+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "NA",
-    "title": "MS Elena Jauregui Baldassini",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "MS Elena Jauregui Baldassini",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/NA",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:25.833965+00:00",
+    "fetched_at": "2026-10-16T10:12:01.532586+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1227,7 +1115,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:26.878124+00:00",
+    "fetched_at": "2026-10-16T10:12:02.780183+00:00",
     "relevance_level": "MUY ALTA",
     "relevance_note": "Bilbao es nodo TEN-T. Infraestructuras de transporte elegibles."
   },
@@ -1243,7 +1131,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:26.878200+00:00",
+    "fetched_at": "2026-10-16T10:12:02.780329+00:00",
     "relevance_level": "MUY ALTA",
     "relevance_note": "Bilbao es nodo TEN-T. Infraestructuras de transporte elegibles."
   },
@@ -1259,7 +1147,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:26.878343+00:00",
+    "fetched_at": "2026-10-16T10:12:02.780385+00:00",
     "relevance_level": "MUY ALTA",
     "relevance_note": "Bilbao es nodo TEN-T. Infraestructuras de transporte elegibles."
   },
@@ -1275,7 +1163,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:26.878705+00:00",
+    "fetched_at": "2026-10-16T10:12:02.780637+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1291,7 +1179,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:26.879373+00:00",
+    "fetched_at": "2026-10-16T10:12:02.780913+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1307,7 +1195,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:26.879391+00:00",
+    "fetched_at": "2026-10-16T10:12:02.780957+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1323,7 +1211,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:28.179661+00:00",
+    "fetched_at": "2026-10-16T10:12:04.322820+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1339,7 +1227,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:28.181496+00:00",
+    "fetched_at": "2026-10-16T10:12:04.323821+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Infraestructuras energéticas del País Vasco potencialmente elegibles."
   },
@@ -1355,7 +1243,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:28.181937+00:00",
+    "fetched_at": "2026-10-16T10:12:04.324073+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1371,7 +1259,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:28.813970+00:00",
+    "fetched_at": "2026-10-16T10:12:05.053555+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1387,7 +1275,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:28.814268+00:00",
+    "fetched_at": "2026-10-16T10:12:05.053777+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Proyecto BIM/GIS de Bilbao. Complementa estrategia digital."
   },
@@ -1403,7 +1291,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:28.814338+00:00",
+    "fetched_at": "2026-10-16T10:12:05.053801+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -1419,7 +1307,7 @@
     "budget": "",
     "call_id": "DIGITAL-2021-SKILLS-01",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.292975+00:00",
+    "fetched_at": "2026-10-16T10:12:06.753855+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Proyecto BIM/GIS de Bilbao. Complementa estrategia digital."
   },
@@ -1435,7 +1323,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.293109+00:00",
+    "fetched_at": "2026-10-16T10:12:06.753929+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Proyecto BIM/GIS de Bilbao. Complementa estrategia digital."
   },
@@ -1451,23 +1339,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.293422+00:00",
-    "relevance_level": "ALTA",
-    "relevance_note": "Proyecto BIM/GIS de Bilbao. Complementa estrategia digital."
-  },
-  {
-    "id": "18526",
-    "title": "DIGITAL-2021-DEPLOY-01-TWINS-HEALTH: Does the topic also cover digital twins of healthcare organisations (e.g. a hospital)?",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "DIGITAL-2021-DEPLOY-01-TWINS-HEALTH: Does the topic also cover digital twins of healthcare organisations (e.g. a hospital)?",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/18526",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.294044+00:00",
+    "fetched_at": "2026-10-16T10:12:06.754143+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Proyecto BIM/GIS de Bilbao. Complementa estrategia digital."
   },
@@ -1483,7 +1355,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990620+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643736+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1499,7 +1371,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990635+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643746+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1515,7 +1387,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990648+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643755+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1531,7 +1403,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990659+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643762+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1547,7 +1419,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990670+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643770+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1563,7 +1435,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990682+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643776+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1579,7 +1451,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990694+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643783+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1595,7 +1467,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990706+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643790+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1611,7 +1483,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990718+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643799+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1627,7 +1499,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990729+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643807+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1643,7 +1515,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990741+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643815+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1659,7 +1531,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990753+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643822+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1675,7 +1547,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990764+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643831+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1691,7 +1563,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990776+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643840+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1707,7 +1579,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990787+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643847+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1723,7 +1595,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990798+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643855+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1739,7 +1611,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990810+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643862+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1755,7 +1627,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990821+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643870+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1771,7 +1643,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990832+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643877+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1787,7 +1659,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990844+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643883+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1803,7 +1675,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990855+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643890+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1819,7 +1691,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990866+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643897+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1835,7 +1707,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990878+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643904+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1851,7 +1723,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990892+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643911+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1867,7 +1739,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990905+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643917+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1883,7 +1755,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990917+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643924+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1899,7 +1771,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990928+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643931+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1915,7 +1787,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990939+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643938+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1931,7 +1803,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990951+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643946+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1947,7 +1819,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990962+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643954+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1963,7 +1835,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990973+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643961+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1979,7 +1851,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990984+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643969+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -1995,7 +1867,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:30.990996+00:00",
+    "fetched_at": "2026-10-16T10:12:07.643976+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Corredor Vasco del Hidrógeno. Petronor y Puerto de Bilbao involucrados."
   },
@@ -2011,7 +1883,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.019324+00:00",
+    "fetched_at": "2026-10-16T10:12:08.918968+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Aplicable a rehabilitación de edificios municipales."
   },
@@ -2027,7 +1899,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.019872+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919369+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2043,7 +1915,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.019911+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919397+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2059,7 +1931,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.020057+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919436+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2075,7 +1947,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.020093+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919459+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Aplicable a rehabilitación de edificios municipales."
   },
@@ -2091,7 +1963,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.020381+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919507+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2107,23 +1979,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.020403+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "956926438",
-    "title": "SOLAR NAHWAERME AT ENERGIECONTRACTING GMBH",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "SOLAR NAHWAERME AT ENERGIECONTRACTING GMBH",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/956926438",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.020640+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919521+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2139,9 +1995,25 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.020661+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919685+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Aplicable a rehabilitación de edificios municipales."
+  },
+  {
+    "id": "956926438",
+    "title": "SOLAR NAHWAERME AT ENERGIECONTRACTING GMBH",
+    "status": "Unknown",
+    "programme": "",
+    "deadline": "",
+    "description": "SOLAR NAHWAERME AT ENERGIECONTRACTING GMBH",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/956926438",
+    "action_type": "",
+    "budget": "",
+    "call_id": "",
+    "tags": "",
+    "fetched_at": "2026-10-16T10:12:08.919705+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
     "id": "10027",
@@ -2155,7 +2027,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.020725+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919849+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2171,7 +2043,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.020744+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919863+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2187,7 +2059,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.020758+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919872+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2203,7 +2075,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:32.020813+00:00",
+    "fetched_at": "2026-10-16T10:12:08.919884+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2219,23 +2091,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:33.228944+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "925388828",
-    "title": "THOMSON POWER EUROPE LTD",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "THOMSON POWER EUROPE LTD",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/925388828",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:33.229122+00:00",
+    "fetched_at": "2026-10-16T10:12:10.427411+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2251,7 +2107,23 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:33.229137+00:00",
+    "fetched_at": "2026-10-16T10:12:10.427485+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
+  },
+  {
+    "id": "925388828",
+    "title": "THOMSON POWER EUROPE LTD",
+    "status": "Unknown",
+    "programme": "",
+    "deadline": "",
+    "description": "THOMSON POWER EUROPE LTD",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/925388828",
+    "action_type": "",
+    "budget": "",
+    "call_id": "",
+    "tags": "",
+    "fetched_at": "2026-10-16T10:12:10.427496+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2267,7 +2139,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:33.229209+00:00",
+    "fetched_at": "2026-10-16T10:12:10.427547+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2283,7 +2155,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:33.229242+00:00",
+    "fetched_at": "2026-10-16T10:12:10.427577+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2299,7 +2171,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:33.229272+00:00",
+    "fetched_at": "2026-10-16T10:12:10.427599+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2315,7 +2187,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:33.229288+00:00",
+    "fetched_at": "2026-10-16T10:12:10.427612+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2331,7 +2203,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:34.270125+00:00",
+    "fetched_at": "2026-10-16T10:12:11.748722+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Bilbao tiene Plan de Economía Circular y proyectos en Mercabilbao."
   },
@@ -2347,7 +2219,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:34.270193+00:00",
+    "fetched_at": "2026-10-16T10:12:11.748785+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Bilbao tiene Plan de Economía Circular y proyectos en Mercabilbao."
   },
@@ -2363,7 +2235,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:34.271085+00:00",
+    "fetched_at": "2026-10-16T10:12:11.749261+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Bilbao tiene Plan de Economía Circular y proyectos en Mercabilbao."
   },
@@ -2379,7 +2251,7 @@
     "budget": "",
     "call_id": "HORIZON-CL6-2023-CIRCBIO-01",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:34.271299+00:00",
+    "fetched_at": "2026-10-16T10:12:11.749399+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Garbiker y gestión de residuos municipal. Plan de residuos activo."
   },
@@ -2395,23 +2267,23 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:35.241725+00:00",
+    "fetched_at": "2026-10-16T10:12:13.607978+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
-    "id": "950910110",
-    "title": "CURA TERRAE WATER LIMITED",
+    "id": "50912",
+    "title": "HORIZON-MISS-2024-CIT-01-02: Which are the relevant topics under “Mission: Adaptation to Climate Change” which cover climate urban stress and related extreme heat?",
     "status": "Unknown",
     "programme": "",
     "deadline": "",
-    "description": "CURA TERRAE WATER LIMITED",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/950910110",
+    "description": "HORIZON-MISS-2024-CIT-01-02: Which are the relevant topics under “Mission: Adaptation to Climate Change” which cover climate urban stress and related extreme heat?",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/50912",
     "action_type": "",
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:35.242681+00:00",
+    "fetched_at": "2026-10-16T10:12:13.608196+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2427,7 +2299,7 @@
     "budget": "",
     "call_id": "LIFE-TA-2020",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:36.223520+00:00",
+    "fetched_at": "2026-10-16T10:12:14.649397+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Bilbao tiene historial de inundaciones (ría del Nervión). Planes activos."
   },
@@ -2443,7 +2315,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:36.224075+00:00",
+    "fetched_at": "2026-10-16T10:12:14.649436+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2459,7 +2331,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:36.224137+00:00",
+    "fetched_at": "2026-10-16T10:12:14.649523+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2475,7 +2347,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:36.224151+00:00",
+    "fetched_at": "2026-10-16T10:12:14.649532+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2491,7 +2363,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:36.224164+00:00",
+    "fetched_at": "2026-10-16T10:12:14.649541+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2507,7 +2379,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:36.224177+00:00",
+    "fetched_at": "2026-10-16T10:12:14.649549+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2523,7 +2395,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:36.224190+00:00",
+    "fetched_at": "2026-10-16T10:12:14.649558+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2539,7 +2411,23 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:36.224202+00:00",
+    "fetched_at": "2026-10-16T10:12:14.649565+00:00",
+    "relevance_level": "INFO",
+    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
+  },
+  {
+    "id": "NA",
+    "title": "Prof. Dr. Jorge Isidoro",
+    "status": "Unknown",
+    "programme": "",
+    "deadline": "",
+    "description": "Prof. Dr. Jorge Isidoro",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/NA",
+    "action_type": "",
+    "budget": "",
+    "call_id": "",
+    "tags": "",
+    "fetched_at": "2026-10-16T10:12:14.649574+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2555,7 +2443,7 @@
     "budget": "",
     "call_id": "EC-ENEST/BEG/2025/EA-RP/0052-PIN",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:36.224360+00:00",
+    "fetched_at": "2026-10-16T10:12:14.649602+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "Bilbao tiene historial de inundaciones (ría del Nervión). Planes activos."
   },
@@ -2571,7 +2459,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:43.686310+00:00",
+    "fetched_at": "2026-10-16T10:12:23.680936+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Margen izquierda con pasado industrial. Potencial reconversión."
   },
@@ -2587,7 +2475,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:43.686495+00:00",
+    "fetched_at": "2026-10-16T10:12:23.681102+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Margen izquierda con pasado industrial. Potencial reconversión."
   },
@@ -2603,7 +2491,7 @@
     "budget": "",
     "call_id": "ESF-2023-SUPPLY-DEMAND",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:43.687269+00:00",
+    "fetched_at": "2026-10-16T10:12:23.681490+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Margen izquierda con pasado industrial. Potencial reconversión."
   },
@@ -2619,7 +2507,7 @@
     "budget": "",
     "call_id": "IMREG-2022-INFOME",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:44.768146+00:00",
+    "fetched_at": "2026-10-16T10:12:25.056501+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "País Vasco es región en transición. Fondos FEDER disponibles."
   },
@@ -2635,7 +2523,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:45.657336+00:00",
+    "fetched_at": "2026-10-16T10:12:26.173090+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2651,7 +2539,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:45.658643+00:00",
+    "fetched_at": "2026-10-16T10:12:26.173756+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2667,7 +2555,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:45.658661+00:00",
+    "fetched_at": "2026-10-16T10:12:26.173769+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2683,7 +2571,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:47.394107+00:00",
+    "fetched_at": "2026-10-16T10:12:28.121887+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2699,7 +2587,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:47.394188+00:00",
+    "fetched_at": "2026-10-16T10:12:28.121936+00:00",
     "relevance_level": "MEDIA",
     "relevance_note": "Aplicable a Petronor/Repsol (Muskiz) y Puerto de Bilbao."
   },
@@ -2715,7 +2603,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:47.394245+00:00",
+    "fetched_at": "2026-10-16T10:12:28.121970+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2731,7 +2619,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:47.394412+00:00",
+    "fetched_at": "2026-10-16T10:12:28.122064+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2747,7 +2635,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:48.504205+00:00",
+    "fetched_at": "2026-10-16T10:12:29.558385+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2763,7 +2651,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:48.504229+00:00",
+    "fetched_at": "2026-10-16T10:12:29.558401+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2779,7 +2667,7 @@
     "budget": "",
     "call_id": "CINEA/2026/OP/0018-PIN",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:48.504291+00:00",
+    "fetched_at": "2026-10-16T10:12:29.558435+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2795,23 +2683,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:48.504431+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "100106",
-    "title": "Should the Mission Forum be hosted during Ocean Days if in Brussels, or is there also the possibility of hosting the Mission Forum in Brussels during another time of the year?",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "Should the Mission Forum be hosted during Ocean Days if in Brussels, or is there also the possibility of hosting the Mission Forum in Brussels during another time of the year?",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/100106",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:48.505974+00:00",
+    "fetched_at": "2026-10-16T10:12:29.558514+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2827,7 +2699,7 @@
     "budget": "",
     "call_id": "HORIZON-MISS-2021-SOIL-02",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:49.861551+00:00",
+    "fetched_at": "2026-10-16T10:12:31.357539+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2843,7 +2715,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:49.861887+00:00",
+    "fetched_at": "2026-10-16T10:12:31.357768+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2859,7 +2731,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:49.862165+00:00",
+    "fetched_at": "2026-10-16T10:12:31.357909+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2875,7 +2747,7 @@
     "budget": "",
     "call_id": "EC-JRC/2026/LVP/3876-EXA",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:51.842615+00:00",
+    "fetched_at": "2026-10-16T10:12:33.698193+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "NEB combina sostenibilidad + diseño + inclusion. Ideal para regeneracion urbana Bilbao (Zorrotzaurre, Casco Viejo)."
   },
@@ -2891,7 +2763,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:51.842662+00:00",
+    "fetched_at": "2026-10-16T10:12:33.698216+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "NEB combina sostenibilidad + diseño + inclusion. Ideal para regeneracion urbana Bilbao (Zorrotzaurre, Casco Viejo)."
   },
@@ -2907,7 +2779,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:51.842687+00:00",
+    "fetched_at": "2026-10-16T10:12:33.698235+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "NEB combina sostenibilidad + diseño + inclusion. Ideal para regeneracion urbana Bilbao (Zorrotzaurre, Casco Viejo)."
   },
@@ -2923,7 +2795,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:51.842771+00:00",
+    "fetched_at": "2026-10-16T10:12:33.698294+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "NEB combina sostenibilidad + diseño + inclusion. Ideal para regeneracion urbana Bilbao (Zorrotzaurre, Casco Viejo)."
   },
@@ -2939,7 +2811,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:51.843119+00:00",
+    "fetched_at": "2026-10-16T10:12:33.698490+00:00",
     "relevance_level": "ALTA",
     "relevance_note": "NEB combina sostenibilidad + diseño + inclusion. Ideal para regeneracion urbana Bilbao (Zorrotzaurre, Casco Viejo)."
   },
@@ -2955,7 +2827,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.753897+00:00",
+    "fetched_at": "2026-10-16T10:12:34.820714+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2971,7 +2843,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.753969+00:00",
+    "fetched_at": "2026-10-16T10:12:34.820738+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -2987,7 +2859,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754033+00:00",
+    "fetched_at": "2026-10-16T10:12:34.820772+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -3003,7 +2875,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754138+00:00",
+    "fetched_at": "2026-10-16T10:12:34.820832+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -3019,7 +2891,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754183+00:00",
+    "fetched_at": "2026-10-16T10:12:34.820879+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -3035,7 +2907,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754238+00:00",
+    "fetched_at": "2026-10-16T10:12:34.820933+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -3051,7 +2923,7 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754263+00:00",
+    "fetched_at": "2026-10-16T10:12:34.821001+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
@@ -3067,107 +2939,12 @@
     "budget": "",
     "call_id": "",
     "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754278+00:00",
+    "fetched_at": "2026-10-16T10:12:34.821010+00:00",
     "relevance_level": "INFO",
     "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
   },
   {
-    "id": "EU4H",
-    "title": "European Linkage of Initiative from Science to Action in Health",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "European Linkage of Initiative from Science to Action in Health",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EU4H",
-    "action_type": "",
-    "budget": "",
-    "call_id": "EU4H-2022-PJ-3",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754330+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "19519",
-    "title": "Under HORIZON-EIC-2022-Social Innovation Prize (Challenge): is it possible to present an urban innovation project that intervenes in the public space of a housing district, or does it have to be a building itself?",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "Under HORIZON-EIC-2022-Social Innovation Prize (Challenge): is it possible to present an urban innovation project that intervenes in the public space of a housing district, or does it have to be a building itself?",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/19519",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754380+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "9532",
-    "title": "Under call H2020-ICT-2018-2020, topic ICT-03-2018-2019 it is recommended that \"Actions should … develop close links with on-going European and national initiatives in order to maximize impact.\" Where can information on those initiatives be found?",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "Under call H2020-ICT-2018-2020, topic ICT-03-2018-2019 it is recommended that \"Actions should … develop close links with on-going European and national initiatives in order to maximize impact.\" Where can information on those initiatives be found?",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/9532",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754471+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "513",
-    "title": "Under the action \"Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)\", which secondments from and to an International European Interest Organisation (IEIO) are eligible for funding?",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "Under the action \"Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)\", which secondments from and to an International European Interest Organisation (IEIO) are eligible for funding?",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/513",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754507+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "22334",
-    "title": "HORIZON-EIC-2023-EUSIC-PRIZES-04: Regarding the European Social Innovation Competition, our initiative has already received a regional award from my country and/or support from European structural funds. Does this disqualify us?",
-    "status": "Unknown",
-    "programme": "",
-    "deadline": "",
-    "description": "HORIZON-EIC-2023-EUSIC-PRIZES-04: Regarding the European Social Innovation Competition, our initiative has already received a regional award from my country and/or support from European structural funds. Does this disqualify us?",
-    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/22334",
-    "action_type": "",
-    "budget": "",
-    "call_id": "",
-    "tags": "",
-    "fetched_at": "2026-10-15T10:24:52.754537+00:00",
-    "relevance_level": "INFO",
-    "relevance_note": "Revisar relevancia para el Ayuntamiento de Bilbao."
-  },
-  {
-    "id": "BDNS-935080",
-    "title": "ASOCIACIÓN MUSICAL SINKRO PARA ORGANIZAR BERNAOLA ZIKLOA 2026",
-    "description": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA. . Regiones: ES211 - Araba/Álava",
-    "status": "Open",
-    "deadline": "31/12/2026",
-    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatoria/935080",
-    "programme": "VITORIA-GASTEIZ",
-    "budget": "10,000.00 EUR",
-    "action_type": "Subvencion Nacional",
-    "call_id": "BDNS 935080",
-    "tags": "",
-    "source": "BDNS",
-    "relevance_level": "MEDIA"
-  },
-  {
-    "id": "EUS-09243",
+    "id": "EUS-46254",
     "title": "Ayudas para la adquisición e implantación de sistemas de nuevas tecnologías y de seguridad en el sector del transporte público 2026.",
     "description": "Gobierno Vasco / Sector Publico Euskadi",
     "status": "Open",
@@ -3182,7 +2959,7 @@
     "relevance_level": "MEDIA"
   },
   {
-    "id": "EUS-81836",
+    "id": "EUS-39402",
     "title": "9 FAROS DE INNOVACIÓN, 3 transiciones (digital, ecológica y sociosanitaria) y 2 líneas (de retos y plataformas) son los ejes de una nueva convocatoria del Gobierno Vasco que persigue colaboración de E",
     "description": "Gobierno Vasco / Sector Publico Euskadi",
     "status": "Open",
@@ -3197,7 +2974,7 @@
     "relevance_level": "MEDIA"
   },
   {
-    "id": "EUS-30787",
+    "id": "EUS-30556",
     "title": "HORIZON. El gran Programa de I+D+i de la UE lanza convocatorias transversales ligadas a multitud de líneas innovadoras, que atañen a inteligencia artificial y digitalización, energía y descarbonizació",
     "description": "Gobierno Vasco / Sector Publico Euskadi",
     "status": "Open",
@@ -3212,7 +2989,7 @@
     "relevance_level": "ALTA"
   },
   {
-    "id": "EUS-76445",
+    "id": "EUS-28044",
     "title": "MEDIO AMBIENTE URBANO Y FEDER. Ayudas mediante el Fondo Europeo de Desarrollo Regional y la Fundación Biodiversidad, en favor de la renaturalización urbana, infraestructura verde, conectividad de espa",
     "description": "Gobierno Vasco / Sector Publico Euskadi",
     "status": "Open",
@@ -3227,7 +3004,7 @@
     "relevance_level": "MEDIA"
   },
   {
-    "id": "EUS-04946",
+    "id": "EUS-07605",
     "title": "Comunicación previa - Digitalización 2027",
     "description": "Gobierno Vasco / Sector Publico Euskadi",
     "status": "Open",
@@ -3242,12 +3019,57 @@
     "relevance_level": "MEDIA"
   },
   {
-    "id": "EUS-36507",
-    "title": "Suministro de cinco (5) relojes de pulsera (analógicos o inteligentes) para el Ayuntamiento de Basauri.",
+    "id": "EUS-01251",
+    "title": "Estudio técnico reparacion voladizos Ceip Bizkotxalde HLHI_ edificio primaria",
     "description": "Gobierno Vasco / Sector Publico Euskadi",
     "status": "Open",
     "deadline": "",
-    "url": "https://www.euskadi.eus/anuncio_contratacion/suministro-cinco-5-relojes-pulsera-analogicos-o-inteligentes-ayuntamiento-basauri/web01-tramite/es/",
+    "url": "https://www.euskadi.eus/anuncio_contratacion/estudio-tecnico-reparacion-voladizos-ceip-bizkotxalde-hlhi_-edificio-primaria/web01-tramite/es/",
+    "programme": "Euskadi",
+    "budget": "",
+    "action_type": "Licitacion Euskadi",
+    "call_id": "",
+    "tags": "energia",
+    "source": "KontratazioA",
+    "relevance_level": "MEDIA"
+  },
+  {
+    "id": "EUS-52868",
+    "title": "Revisión de líneas de vida y reparación puntual por gotera en la Cubierta del CEIP Jose Etxegarai HLHI",
+    "description": "Gobierno Vasco / Sector Publico Euskadi",
+    "status": "Open",
+    "deadline": "",
+    "url": "https://www.euskadi.eus/anuncio_contratacion/revision-lineas-vida-y-reparacion-puntual-gotera-cubierta-del-ceip-jose-etxegarai-hlhi/web01-tramite/es/",
+    "programme": "Euskadi",
+    "budget": "",
+    "action_type": "Licitacion Euskadi",
+    "call_id": "",
+    "tags": "energia",
+    "source": "KontratazioA",
+    "relevance_level": "MEDIA"
+  },
+  {
+    "id": "EUS-48531",
+    "title": "Impresión y colocación de carteles informativos sobre el bosque comestible y el hotel de insectos del parque Iruaretxeta",
+    "description": "Gobierno Vasco / Sector Publico Euskadi",
+    "status": "Open",
+    "deadline": "",
+    "url": "https://www.euskadi.eus/anuncio_contratacion/impresion-y-colocacion-carteles-informativos-bosque-comestible-y-hotel-insectos-del-parque-iruaretxeta/web01-tramite/es/",
+    "programme": "Euskadi",
+    "budget": "",
+    "action_type": "Licitacion Euskadi",
+    "call_id": "",
+    "tags": "energia",
+    "source": "KontratazioA",
+    "relevance_level": "MEDIA"
+  },
+  {
+    "id": "EUS-80994",
+    "title": "Realización del análisis del agua de un punto de vertido detectado por URA y el ayuntamiento",
+    "description": "Gobierno Vasco / Sector Publico Euskadi",
+    "status": "Open",
+    "deadline": "",
+    "url": "https://www.euskadi.eus/anuncio_contratacion/realizacion-del-analisis-del-agua-punto-vertido-detectado-ura-y-ayuntamiento/web01-tramite/es/",
     "programme": "Euskadi",
     "budget": "",
     "action_type": "Licitacion Euskadi",
@@ -3255,50 +3077,5 @@
     "tags": "energia",
     "source": "KontratazioA",
     "relevance_level": "MUY ALTA"
-  },
-  {
-    "id": "EUS-56535",
-    "title": "Compra y puesta en marcha de una caldera de aerotermia",
-    "description": "Gobierno Vasco / Sector Publico Euskadi",
-    "status": "Open",
-    "deadline": "",
-    "url": "https://www.euskadi.eus/anuncio_contratacion/compra-y-puesta-marcha-caldera-aerotermia/web01-tramite/es/",
-    "programme": "Euskadi",
-    "budget": "",
-    "action_type": "Licitacion Euskadi",
-    "call_id": "",
-    "tags": "energia",
-    "source": "KontratazioA",
-    "relevance_level": "MEDIA"
-  },
-  {
-    "id": "EUS-28493",
-    "title": "Obras de asfaltado de las salidas de emergencia en el parque de Landa",
-    "description": "Gobierno Vasco / Sector Publico Euskadi",
-    "status": "Open",
-    "deadline": "",
-    "url": "https://www.euskadi.eus/anuncio_contratacion/obras-asfaltado-salidas-emergencia-parque-landa/web01-tramite/es/",
-    "programme": "Euskadi",
-    "budget": "",
-    "action_type": "Licitacion Euskadi",
-    "call_id": "",
-    "tags": "energia",
-    "source": "KontratazioA",
-    "relevance_level": "MEDIA"
-  },
-  {
-    "id": "EUS-58119",
-    "title": "Seguimiento del ciervo (cervus elaphus) en el parque natural y ZEC Gorbeia (ES2110009) y estribaciones.",
-    "description": "Gobierno Vasco / Sector Publico Euskadi",
-    "status": "Open",
-    "deadline": "",
-    "url": "https://www.euskadi.eus/anuncio_contratacion/seguimiento-del-ciervo-cervus-elaphus-parque-natural-y-zec-gorbeia-es2110009-y-estribaciones/web01-tramite/es/",
-    "programme": "Euskadi",
-    "budget": "",
-    "action_type": "Licitacion Euskadi",
-    "call_id": "",
-    "tags": "energia",
-    "source": "KontratazioA",
-    "relevance_level": "MEDIA"
   }
 ]
